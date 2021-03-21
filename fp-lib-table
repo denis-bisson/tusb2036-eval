@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name USB-A)(type KiCad)(uri ${KIPRJMOD}/Libraries/Wurth-62900416021)(options "")(descr ""))
+  (lib (name Vishay-cap)(type KiCad)(uri ${KIPRJMOD}/Libraries/Vishay-293D127X96R3D2TE3)(options "")(descr ""))
 )
