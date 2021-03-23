@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "TUSB2036 Evaluation Board"
 Date "2021-03-22"
-Rev "2"
+Rev "3"
 Comp "Chris Keller"
 Comment1 ""
 Comment2 ""
@@ -805,15 +805,15 @@ $EndComp
 $Comp
 L Power_Management:TPS2044D U3
 U 1 1 605F1591
-P 3800 7000
-F 0 "U3" H 3800 7467 50  0000 C CNN
-F 1 "TPS2044D" H 3800 7376 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3800 7500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps2044.pdf" H 3750 7300 50  0001 C CNN
-F 4 "2.73" H 3800 7000 50  0001 C CNN "Price"
-F 5 "595-TPS2044BDR" H 3800 7000 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 3800 7000 50  0001 C CNN "Vendor"
-	1    3800 7000
+P 3550 7000
+F 0 "U3" H 3550 7467 50  0000 C CNN
+F 1 "TPS2044D" H 3550 7376 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3550 7500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps2044.pdf" H 3500 7300 50  0001 C CNN
+F 4 "2.73" H 3550 7000 50  0001 C CNN "Price"
+F 5 "595-TPS2044BDR" H 3550 7000 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 3550 7000 50  0001 C CNN "Vendor"
+	1    3550 7000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -833,12 +833,12 @@ $EndComp
 $Comp
 L power:VBUS #PWR019
 U 1 1 605F85B9
-P 4300 6650
-F 0 "#PWR019" H 4300 6500 50  0001 C CNN
-F 1 "VBUS" H 4315 6823 50  0000 C CNN
-F 2 "" H 4300 6650 50  0001 C CNN
-F 3 "" H 4300 6650 50  0001 C CNN
-	1    4300 6650
+P 4050 6650
+F 0 "#PWR019" H 4050 6500 50  0001 C CNN
+F 1 "VBUS" H 4065 6823 50  0000 C CNN
+F 2 "" H 4050 6650 50  0001 C CNN
+F 3 "" H 4050 6650 50  0001 C CNN
+	1    4050 6650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -855,12 +855,12 @@ $EndComp
 $Comp
 L power:GND #PWR013
 U 1 1 6061613E
-P 3800 7600
-F 0 "#PWR013" H 3800 7350 50  0001 C CNN
-F 1 "GND" H 3805 7427 50  0001 C CNN
-F 2 "" H 3800 7600 50  0001 C CNN
-F 3 "" H 3800 7600 50  0001 C CNN
-	1    3800 7600
+P 3550 7600
+F 0 "#PWR013" H 3550 7350 50  0001 C CNN
+F 1 "GND" H 3555 7427 50  0001 C CNN
+F 2 "" H 3550 7600 50  0001 C CNN
+F 3 "" H 3550 7600 50  0001 C CNN
+	1    3550 7600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1271,21 +1271,21 @@ Text Label 7450 5450 0    50   ~ 0
 D3-
 Text Label 9350 4800 0    50   ~ 0
 5VC
-Text Label 3300 6800 2    50   ~ 0
+Text Label 3050 6800 2    50   ~ 0
 OC1
-Text Label 3300 6900 2    50   ~ 0
+Text Label 3050 6900 2    50   ~ 0
 OC2
-Text Label 3300 7200 2    50   ~ 0
+Text Label 3050 7200 2    50   ~ 0
 EN1
-Text Label 3300 7300 2    50   ~ 0
+Text Label 3050 7300 2    50   ~ 0
 EN2
 Text Label 4700 6800 2    50   ~ 0
 OC3
 Text Label 4700 7200 2    50   ~ 0
 EN3
-Text Label 4300 7000 0    50   ~ 0
+Text Label 4050 7000 0    50   ~ 0
 5VA
-Text Label 4300 7100 0    50   ~ 0
+Text Label 4050 7100 0    50   ~ 0
 5VB
 Text Label 5700 7000 0    50   ~ 0
 5VC
@@ -1492,7 +1492,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 1050 3750 1050
 Wire Wire Line
-	4300 6650 4300 6800
+	4050 6650 4050 6800
 Wire Wire Line
 	5700 6800 5750 6800
 Wire Wire Line
@@ -1733,6 +1733,38 @@ Connection ~ 1850 7100
 Connection ~ 1900 3550
 NoConn ~ 5700 7100
 NoConn ~ 4700 6900
-NoConn ~ 4700 7300
 NoConn ~ 4700 4100
+$Comp
+L Device:R_Small_US R3
+U 1 1 605E5806
+P 4500 7000
+F 0 "R3" H 4568 7046 50  0000 L CNN
+F 1 "15kΩ" H 4568 6955 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4500 7000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 4500 7000 50  0001 C CNN
+F 4 "0.16" H 4568 7146 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0715KL" H 4568 7146 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 4568 7146 50  0001 C CNN "Vendor"
+	1    4500 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VBUS #PWR0101
+U 1 1 605E8A16
+P 4500 6700
+F 0 "#PWR0101" H 4500 6550 50  0001 C CNN
+F 1 "VBUS" H 4515 6873 50  0000 C CNN
+F 2 "" H 4500 6700 50  0001 C CNN
+F 3 "" H 4500 6700 50  0001 C CNN
+	1    4500 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 6700 4500 6900
+Wire Wire Line
+	4500 7100 4500 7300
+Wire Wire Line
+	4500 7300 4700 7300
+Text Notes 4500 7450 0    50   ~ 0
+Disable\nOUT4
 $EndSCHEMATC
