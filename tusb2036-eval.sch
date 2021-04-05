@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "TUSB2036 Evaluation Board"
-Date "2021-03-22"
+Date "2021-04-05"
 Rev "3"
 Comp "Chris Keller"
 Comment1 ""
