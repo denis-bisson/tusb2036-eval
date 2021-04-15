@@ -13,1168 +13,581 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Interface_USB:TUSB2036 U1
-U 1 1 60568111
-P 5700 3600
-F 0 "U1" H 5700 5381 50  0000 C CNN
-F 1 "TUSB2036" H 5700 5290 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 6750 2100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tusb2036.pdf" H 5700 3600 50  0001 C CNN
-F 4 "3.4" H 5700 3600 50  0001 C CNN "Price"
-F 5 "595-TUSB2036VFR" H 5700 3600 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 5700 3600 50  0001 C CNN "Vendor"
-	1    5700 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR023
-U 1 1 605699FC
-P 5250 1750
-F 0 "#PWR023" H 5250 1600 50  0001 C CNN
-F 1 "+3V3" H 5265 1923 50  0000 C CNN
-F 2 "" H 5250 1750 50  0001 C CNN
-F 3 "" H 5250 1750 50  0001 C CNN
-	1    5250 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 6056AAA5
-P 1300 2700
-F 0 "#PWR01" H 1300 2450 50  0001 C CNN
-F 1 "GND" H 1305 2527 50  0001 C CNN
-F 2 "" H 1300 2700 50  0001 C CNN
-F 3 "" H 1300 2700 50  0001 C CNN
-	1    1300 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_B_Micro J1
-U 1 1 6056C3E4
-P 1300 2250
-F 0 "J1" H 1357 2717 50  0000 C CNN
-F 1 "USB_B_Micro" H 1357 2626 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1450 2200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf" H 1450 2200 50  0001 C CNN
-F 4 "0.95" H 1300 2250 50  0001 C CNN "Price"
-F 5 "538-47346-0001" H 1300 2250 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1300 2250 50  0001 C CNN "Vendor"
-	1    1300 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R10
-U 1 1 6057025C
-P 2300 2250
-F 0 "R10" V 2505 2250 50  0000 C CNN
-F 1 "27Ω" V 2414 2250 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 2300 2250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 2300 2250 50  0001 C CNN
-F 4 "0.14" H 2505 2350 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0727RL" H 2505 2350 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2505 2350 50  0001 C CNN "Vendor"
-	1    2300 2250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R11
-U 1 1 60570D82
-P 2300 2350
-F 0 "R11" V 2187 2350 50  0000 C CNN
-F 1 "27Ω" V 2096 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 2300 2350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 2300 2350 50  0001 C CNN
-F 4 "0.14" H 2187 2450 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0727RL" H 2187 2450 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2187 2450 50  0001 C CNN "Vendor"
-	1    2300 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C11
-U 1 1 60571C1D
-P 2600 2550
-F 0 "C11" H 2692 2596 50  0000 L CNN
-F 1 "22pF" H 2692 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 2600 2550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 2600 2550 50  0001 C CNN
-F 4 "0.61" H 2692 2696 50  0001 C CNN "Price"
-F 5 "710-885012009007" H 2692 2696 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2692 2696 50  0001 C CNN "Vendor"
-	1    2600 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C10
-U 1 1 60572B27
-P 2800 2550
-F 0 "C10" H 2892 2596 50  0000 L CNN
-F 1 "22pF" H 2892 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 2800 2550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 2800 2550 50  0001 C CNN
-F 4 "0.61" H 2892 2696 50  0001 C CNN "Price"
-F 5 "710-885012009007" H 2892 2696 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2892 2696 50  0001 C CNN "Vendor"
-	1    2800 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 60576790
-P 2600 2700
-F 0 "#PWR08" H 2600 2450 50  0001 C CNN
-F 1 "GND" H 2605 2527 50  0001 C CNN
-F 2 "" H 2600 2700 50  0001 C CNN
-F 3 "" H 2600 2700 50  0001 C CNN
-	1    2600 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 60577590
-P 2800 2700
-F 0 "#PWR09" H 2800 2450 50  0001 C CNN
-F 1 "GND" H 2805 2527 50  0001 C CNN
-F 2 "" H 2800 2700 50  0001 C CNN
-F 3 "" H 2800 2700 50  0001 C CNN
-	1    2800 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power_Protection:SN75240 U4
-U 1 1 60579044
-P 1900 3250
-F 0 "U4" H 1900 3475 50  0000 C CNN
-F 1 "SN75240" H 1900 3384 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 2050 3100 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 2100 3100 50  0001 C CNN
-F 4 "1.31" H 1900 3250 50  0001 C CNN "Price"
-F 5 "595-SN75240PWR" H 1900 3250 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1900 3250 50  0001 C CNN "Vendor"
-	1    1900 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR07
-U 1 1 6057B447
-P 1900 3550
-F 0 "#PWR07" H 1900 3300 50  0001 C CNN
-F 1 "GND" H 1905 3377 50  0001 C CNN
-F 2 "" H 1900 3550 50  0001 C CNN
-F 3 "" H 1900 3550 50  0001 C CNN
-	1    1900 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VBUS #PWR04
-U 1 1 6057C4C7
-P 1600 1700
-F 0 "#PWR04" H 1600 1550 50  0001 C CNN
-F 1 "VBUS" H 1615 1873 50  0000 C CNN
-F 2 "" H 1600 1700 50  0001 C CNN
-F 3 "" H 1600 1700 50  0001 C CNN
-	1    1600 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R2
-U 1 1 6057E46D
-P 4450 2800
-F 0 "R2" H 4383 2846 50  0000 R CNN
-F 1 "1.5kΩ" H 4383 2755 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 4450 2800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 4450 2800 50  0001 C CNN
-F 4 "0.14" H 4383 2946 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-071K5L" H 4383 2946 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 4383 2946 50  0001 C CNN "Vendor"
-	1    4450 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R21
-U 1 1 6058AD73
-P 8300 1250
-F 0 "R21" V 8505 1250 50  0000 C CNN
-F 1 "27Ω" V 8414 1250 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8300 1250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8300 1250 50  0001 C CNN
-F 4 "0.14" H 8505 1350 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0727RL" H 8505 1350 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8505 1350 50  0001 C CNN "Vendor"
-	1    8300 1250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R22
-U 1 1 6058C1E0
-P 8300 1350
-F 0 "R22" V 8187 1350 50  0000 C CNN
-F 1 "27Ω" V 8096 1350 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8300 1350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8300 1350 50  0001 C CNN
-F 4 "0.14" H 8187 1450 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0727RL" H 8187 1450 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8187 1450 50  0001 C CNN "Vendor"
-	1    8300 1350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C21
-U 1 1 6058CD4C
-P 7700 1500
-F 0 "C21" H 7609 1546 50  0000 R CNN
-F 1 "22pF" H 7609 1455 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 7700 1500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 7700 1500 50  0001 C CNN
-F 4 "0.61" H 7609 1646 50  0001 C CNN "Price"
-F 5 "710-885012009007" H 7609 1646 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 7609 1646 50  0001 C CNN "Vendor"
-	1    7700 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C22
-U 1 1 6058E890
-P 7850 1500
-F 0 "C22" H 7942 1546 50  0000 L CNN
-F 1 "22pF" H 7942 1455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 7850 1500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 7850 1500 50  0001 C CNN
-F 4 "0.61" H 7942 1646 50  0001 C CNN "Price"
-F 5 "710-885012009007" H 7942 1646 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 7942 1646 50  0001 C CNN "Vendor"
-	1    7850 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR026
-U 1 1 6059087F
-P 7700 1600
-F 0 "#PWR026" H 7700 1350 50  0001 C CNN
-F 1 "GND" H 7705 1427 50  0001 C CNN
-F 2 "" H 7700 1600 50  0001 C CNN
-F 3 "" H 7700 1600 50  0001 C CNN
-	1    7700 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR029
-U 1 1 60591CDB
-P 7850 1600
-F 0 "#PWR029" H 7850 1350 50  0001 C CNN
-F 1 "GND" H 7855 1427 50  0001 C CNN
-F 2 "" H 7850 1600 50  0001 C CNN
-F 3 "" H 7850 1600 50  0001 C CNN
-	1    7850 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R23
-U 1 1 6059294D
-P 8600 1500
-F 0 "R23" H 8668 1546 50  0000 L CNN
-F 1 "15kΩ" H 8668 1455 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8600 1500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8600 1500 50  0001 C CNN
-F 4 "0.16" H 8668 1646 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0715KL" H 8668 1646 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8668 1646 50  0001 C CNN "Vendor"
-	1    8600 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R24
-U 1 1 60593662
-P 8750 1500
-F 0 "R24" H 8818 1546 50  0000 L CNN
-F 1 "15kΩ" H 8818 1455 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8750 1500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8750 1500 50  0001 C CNN
-F 4 "0.16" H 8818 1646 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0715KL" H 8818 1646 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8818 1646 50  0001 C CNN "Vendor"
-	1    8750 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR032
-U 1 1 60595077
-P 8600 1600
-F 0 "#PWR032" H 8600 1350 50  0001 C CNN
-F 1 "GND" H 8605 1427 50  0001 C CNN
-F 2 "" H 8600 1600 50  0001 C CNN
-F 3 "" H 8600 1600 50  0001 C CNN
-	1    8600 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR035
-U 1 1 605954F9
-P 8750 1600
-F 0 "#PWR035" H 8750 1350 50  0001 C CNN
-F 1 "GND" H 8755 1427 50  0001 C CNN
-F 2 "" H 8750 1600 50  0001 C CNN
-F 3 "" H 8750 1600 50  0001 C CNN
-	1    8750 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_A J2
-U 1 1 6059A682
-P 9800 1250
-F 0 "J2" H 9570 1239 50  0000 R CNN
-F 1 "USB_A" H 9570 1148 50  0000 R CNN
-F 2 "USB-A:62900416021" H 9950 1200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/62900416021-1718169.pdf" H 9950 1200 50  0001 C CNN
-F 4 "2.36" H 9800 1250 50  0001 C CNN "Price"
-F 5 "710-62900416021" H 9800 1250 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9800 1250 50  0001 C CNN "Vendor"
-	1    9800 1250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR044
-U 1 1 6059FE25
-P 9800 1650
-F 0 "#PWR044" H 9800 1400 50  0001 C CNN
-F 1 "GND" H 9805 1477 50  0001 C CNN
-F 2 "" H 9800 1650 50  0001 C CNN
-F 3 "" H 9800 1650 50  0001 C CNN
-	1    9800 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR038
-U 1 1 605A9310
-P 9000 1050
-F 0 "#PWR038" H 9000 800 50  0001 C CNN
-F 1 "GND" H 9005 877 50  0001 C CNN
-F 2 "" H 9000 1050 50  0001 C CNN
-F 3 "" H 9000 1050 50  0001 C CNN
-	1    9000 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R31
-U 1 1 605B7C91
-P 8300 3250
-F 0 "R31" V 8505 3250 50  0000 C CNN
-F 1 "27Ω" V 8414 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8300 3250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8300 3250 50  0001 C CNN
-F 4 "0.14" H 8505 3350 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0727RL" H 8505 3350 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8505 3350 50  0001 C CNN "Vendor"
-	1    8300 3250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R32
-U 1 1 605B7C98
-P 8300 3350
-F 0 "R32" V 8187 3350 50  0000 C CNN
-F 1 "27Ω" V 8096 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8300 3350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8300 3350 50  0001 C CNN
-F 4 "0.14" H 8187 3450 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0727RL" H 8187 3450 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8187 3450 50  0001 C CNN "Vendor"
-	1    8300 3350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C31
-U 1 1 605B7C9F
-P 7700 3500
-F 0 "C31" H 7609 3546 50  0000 R CNN
-F 1 "22pF" H 7609 3455 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 7700 3500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 7700 3500 50  0001 C CNN
-F 4 "0.61" H 7609 3646 50  0001 C CNN "Price"
-F 5 "710-885012009007" H 7609 3646 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 7609 3646 50  0001 C CNN "Vendor"
-	1    7700 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C32
-U 1 1 605B7CA5
-P 7850 3500
-F 0 "C32" H 7942 3546 50  0000 L CNN
-F 1 "22pF" H 7942 3455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 7850 3500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 7850 3500 50  0001 C CNN
-F 4 "0.61" H 7942 3646 50  0001 C CNN "Price"
-F 5 "710-885012009007" H 7942 3646 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 7942 3646 50  0001 C CNN "Vendor"
-	1    7850 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR027
-U 1 1 605B7CB1
-P 7700 3600
-F 0 "#PWR027" H 7700 3350 50  0001 C CNN
-F 1 "GND" H 7705 3427 50  0001 C CNN
-F 2 "" H 7700 3600 50  0001 C CNN
-F 3 "" H 7700 3600 50  0001 C CNN
-	1    7700 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR030
-U 1 1 605B7CB7
-P 7850 3600
-F 0 "#PWR030" H 7850 3350 50  0001 C CNN
-F 1 "GND" H 7855 3427 50  0001 C CNN
-F 2 "" H 7850 3600 50  0001 C CNN
-F 3 "" H 7850 3600 50  0001 C CNN
-	1    7850 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R33
-U 1 1 605B7CBD
-P 8600 3500
-F 0 "R33" H 8668 3546 50  0000 L CNN
-F 1 "15kΩ" H 8668 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8600 3500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8600 3500 50  0001 C CNN
-F 4 "0.16" H 8668 3646 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0715KL" H 8668 3646 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8668 3646 50  0001 C CNN "Vendor"
-	1    8600 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R34
-U 1 1 605B7CC3
-P 8750 3500
-F 0 "R34" H 8818 3546 50  0000 L CNN
-F 1 "15kΩ" H 8818 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8750 3500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8750 3500 50  0001 C CNN
-F 4 "0.16" H 8818 3646 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0715KL" H 8818 3646 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8818 3646 50  0001 C CNN "Vendor"
-	1    8750 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR033
-U 1 1 605B7CCD
-P 8600 3600
-F 0 "#PWR033" H 8600 3350 50  0001 C CNN
-F 1 "GND" H 8605 3427 50  0001 C CNN
-F 2 "" H 8600 3600 50  0001 C CNN
-F 3 "" H 8600 3600 50  0001 C CNN
-	1    8600 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR036
-U 1 1 605B7CD3
-P 8750 3600
-F 0 "#PWR036" H 8750 3350 50  0001 C CNN
-F 1 "GND" H 8755 3427 50  0001 C CNN
-F 2 "" H 8750 3600 50  0001 C CNN
-F 3 "" H 8750 3600 50  0001 C CNN
-	1    8750 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_A J3
-U 1 1 605B7CD9
-P 9800 3250
-F 0 "J3" H 9570 3239 50  0000 R CNN
-F 1 "USB_A" H 9570 3148 50  0000 R CNN
-F 2 "USB-A:62900416021" H 9950 3200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/62900416021-1718169.pdf" H 9950 3200 50  0001 C CNN
-F 4 "2.36" H 9570 3339 50  0001 C CNN "Price"
-F 5 "710-62900416021" H 9570 3339 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9570 3339 50  0001 C CNN "Vendor"
-	1    9800 3250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR045
-U 1 1 605B7CE1
-P 9800 3650
-F 0 "#PWR045" H 9800 3400 50  0001 C CNN
-F 1 "GND" H 9805 3477 50  0001 C CNN
-F 2 "" H 9800 3650 50  0001 C CNN
-F 3 "" H 9800 3650 50  0001 C CNN
-	1    9800 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR039
-U 1 1 605B7CF4
-P 9000 3050
-F 0 "#PWR039" H 9000 2800 50  0001 C CNN
-F 1 "GND" H 9005 2877 50  0001 C CNN
-F 2 "" H 9000 3050 50  0001 C CNN
-F 3 "" H 9000 3050 50  0001 C CNN
-	1    9000 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R41
-U 1 1 605C836A
-P 8300 5350
-F 0 "R41" V 8505 5350 50  0000 C CNN
-F 1 "27Ω" V 8414 5350 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8300 5350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8300 5350 50  0001 C CNN
-F 4 "0.14" H 8505 5450 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0727RL" H 8505 5450 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8505 5450 50  0001 C CNN "Vendor"
-	1    8300 5350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R42
-U 1 1 605C8371
-P 8300 5450
-F 0 "R42" V 8187 5450 50  0000 C CNN
-F 1 "27Ω" V 8096 5450 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8300 5450 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8300 5450 50  0001 C CNN
-F 4 "0.14" H 8187 5550 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0727RL" H 8187 5550 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8187 5550 50  0001 C CNN "Vendor"
-	1    8300 5450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C41
-U 1 1 605C8378
-P 7700 5600
-F 0 "C41" H 7609 5646 50  0000 R CNN
-F 1 "22pF" H 7609 5555 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 7700 5600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 7700 5600 50  0001 C CNN
-F 4 "0.61" H 7609 5746 50  0001 C CNN "Price"
-F 5 "710-885012009007" H 7609 5746 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 7609 5746 50  0001 C CNN "Vendor"
-	1    7700 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C42
-U 1 1 605C837E
-P 7850 5600
-F 0 "C42" H 7942 5646 50  0000 L CNN
-F 1 "22pF" H 7942 5555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 7850 5600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 7850 5600 50  0001 C CNN
-F 4 "0.61" H 7942 5746 50  0001 C CNN "Price"
-F 5 "710-885012009007" H 7942 5746 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 7942 5746 50  0001 C CNN "Vendor"
-	1    7850 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR028
-U 1 1 605C838A
-P 7700 5700
-F 0 "#PWR028" H 7700 5450 50  0001 C CNN
-F 1 "GND" H 7705 5527 50  0001 C CNN
-F 2 "" H 7700 5700 50  0001 C CNN
-F 3 "" H 7700 5700 50  0001 C CNN
-	1    7700 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR031
-U 1 1 605C8390
-P 7850 5700
-F 0 "#PWR031" H 7850 5450 50  0001 C CNN
-F 1 "GND" H 7855 5527 50  0001 C CNN
-F 2 "" H 7850 5700 50  0001 C CNN
-F 3 "" H 7850 5700 50  0001 C CNN
-	1    7850 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R43
-U 1 1 605C8396
-P 8600 5600
-F 0 "R43" H 8668 5646 50  0000 L CNN
-F 1 "15kΩ" H 8668 5555 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8600 5600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8600 5600 50  0001 C CNN
-F 4 "0.16" H 8668 5746 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0715KL" H 8668 5746 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8668 5746 50  0001 C CNN "Vendor"
-	1    8600 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR034
-U 1 1 605C83A6
-P 8600 5700
-F 0 "#PWR034" H 8600 5450 50  0001 C CNN
-F 1 "GND" H 8605 5527 50  0001 C CNN
-F 2 "" H 8600 5700 50  0001 C CNN
-F 3 "" H 8600 5700 50  0001 C CNN
-	1    8600 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR037
-U 1 1 605C83AC
-P 8750 5700
-F 0 "#PWR037" H 8750 5450 50  0001 C CNN
-F 1 "GND" H 8755 5527 50  0001 C CNN
-F 2 "" H 8750 5700 50  0001 C CNN
-F 3 "" H 8750 5700 50  0001 C CNN
-	1    8750 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_A J4
-U 1 1 605C83B2
-P 9800 5350
-F 0 "J4" H 9570 5339 50  0000 R CNN
-F 1 "USB_A" H 9570 5248 50  0000 R CNN
-F 2 "USB-A:62900416021" H 9950 5300 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/62900416021-1718169.pdf" H 9950 5300 50  0001 C CNN
-F 4 "2.36" H 9570 5439 50  0001 C CNN "Price"
-F 5 "710-62900416021" H 9570 5439 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9570 5439 50  0001 C CNN "Vendor"
-	1    9800 5350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR046
-U 1 1 605C83BA
-P 9800 5750
-F 0 "#PWR046" H 9800 5500 50  0001 C CNN
-F 1 "GND" H 9805 5577 50  0001 C CNN
-F 2 "" H 9800 5750 50  0001 C CNN
-F 3 "" H 9800 5750 50  0001 C CNN
-	1    9800 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR040
-U 1 1 605C83CD
-P 9000 5150
-F 0 "#PWR040" H 9000 4900 50  0001 C CNN
-F 1 "GND" H 9005 4977 50  0001 C CNN
-F 2 "" H 9000 5150 50  0001 C CNN
-F 3 "" H 9000 5150 50  0001 C CNN
-	1    9000 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:TPS76333 U2
-U 1 1 605D132D
-P 4100 1150
-F 0 "U2" H 4100 1492 50  0000 C CNN
-F 1 "TPS76333" H 4100 1401 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4100 1475 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tps763.pdf" H 4100 1150 50  0001 C CNN
-F 4 "1" H 4100 1150 50  0001 C CNN "Price"
-F 5 "595-PS76333QDBVRG4Q1" H 4100 1150 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 4100 1150 50  0001 C CNN "Vendor"
-	1    4100 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VBUS #PWR010
-U 1 1 605D1EC3
-P 3000 1050
-F 0 "#PWR010" H 3000 900 50  0001 C CNN
-F 1 "VBUS" H 3015 1223 50  0000 C CNN
-F 2 "" H 3000 1050 50  0001 C CNN
-F 3 "" H 3000 1050 50  0001 C CNN
-	1    3000 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR015
-U 1 1 605DA1D4
-P 4100 1450
-F 0 "#PWR015" H 4100 1200 50  0001 C CNN
-F 1 "GND" H 4105 1277 50  0001 C CNN
-F 2 "" H 4100 1450 50  0001 C CNN
-F 3 "" H 4100 1450 50  0001 C CNN
-	1    4100 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR021
-U 1 1 605DCECA
-P 4850 1050
-F 0 "#PWR021" H 4850 900 50  0001 C CNN
-F 1 "+3V3" H 4865 1223 50  0000 C CNN
-F 2 "" H 4850 1050 50  0001 C CNN
-F 3 "" H 4850 1050 50  0001 C CNN
-	1    4850 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 605DE4E0
-P 3150 1150
-F 0 "C3" H 3242 1196 50  0000 L CNN
-F 1 "4.7μF" H 3242 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3150 1150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1008_X8L_150C_SMD-1101219.pdf" H 3150 1150 50  0001 C CNN
-F 4 "0.93" H 3242 1296 50  0001 C CNN "Price"
-F 5 "80-C1210C475J3N" H 3242 1296 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 3242 1296 50  0001 C CNN "Vendor"
-	1    3150 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C5
-U 1 1 605E0A15
-P 4650 1150
-F 0 "C5" H 4742 1196 50  0000 L CNN
-F 1 "4.7μF" H 4742 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 4650 1150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1008_X8L_150C_SMD-1101219.pdf" H 4650 1150 50  0001 C CNN
-F 4 "0.93" H 4742 1296 50  0001 C CNN "Price"
-F 5 "80-C1210C475J3N" H 4742 1296 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 4742 1296 50  0001 C CNN "Vendor"
-	1    4650 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C4
-U 1 1 605E2A05
-P 3500 1150
-F 0 "C4" H 3592 1196 50  0000 L CNN
-F 1 "0.1μF" H 3592 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3500 1150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" H 3500 1150 50  0001 C CNN
-F 4 "0.46" H 3592 1296 50  0001 C CNN "Price"
-F 5 "581-12105C104JAT2A" H 3592 1296 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 3592 1296 50  0001 C CNN "Vendor"
-	1    3500 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR020
-U 1 1 605E350F
-P 4650 1250
-F 0 "#PWR020" H 4650 1000 50  0001 C CNN
-F 1 "GND" H 4655 1077 50  0001 C CNN
-F 2 "" H 4650 1250 50  0001 C CNN
-F 3 "" H 4650 1250 50  0001 C CNN
-	1    4650 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 605E3C84
-P 3500 1250
-F 0 "#PWR012" H 3500 1000 50  0001 C CNN
-F 1 "GND" H 3505 1077 50  0001 C CNN
-F 2 "" H 3500 1250 50  0001 C CNN
-F 3 "" H 3500 1250 50  0001 C CNN
-	1    3500 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 605E432E
-P 3150 1250
-F 0 "#PWR011" H 3150 1000 50  0001 C CNN
-F 1 "GND" H 3155 1077 50  0001 C CNN
-F 2 "" H 3150 1250 50  0001 C CNN
-F 3 "" H 3150 1250 50  0001 C CNN
-	1    3150 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 605E6475
-P 5700 5250
-F 0 "#PWR024" H 5700 5000 50  0001 C CNN
-F 1 "GND" H 5705 5077 50  0001 C CNN
-F 2 "" H 5700 5250 50  0001 C CNN
-F 3 "" H 5700 5250 50  0001 C CNN
-	1    5700 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power_Management:TPS2044D U3
-U 1 1 605F1591
-P 3550 7000
-F 0 "U3" H 3550 7467 50  0000 C CNN
-F 1 "TPS2044D" H 3550 7376 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3550 7500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps2044.pdf" H 3500 7300 50  0001 C CNN
-F 4 "2.73" H 3550 7000 50  0001 C CNN "Price"
-F 5 "595-TPS2044BDR" H 3550 7000 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 3550 7000 50  0001 C CNN "Vendor"
-	1    3550 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power_Management:TPS2044D U3
-U 2 1 605F413F
-P 5200 7000
-F 0 "U3" H 5200 7467 50  0000 C CNN
-F 1 "TPS2044D" H 5200 7376 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5200 7500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps2044.pdf" H 5150 7300 50  0001 C CNN
-F 4 "2.73" H 5200 7567 50  0001 C CNN "Price"
-F 5 "595-TPS2044BDR" H 5200 7567 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 5200 7567 50  0001 C CNN "Vendor"
-	2    5200 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VBUS #PWR019
-U 1 1 605F85B9
-P 4050 6650
-F 0 "#PWR019" H 4050 6500 50  0001 C CNN
-F 1 "VBUS" H 4065 6823 50  0000 C CNN
-F 2 "" H 4050 6650 50  0001 C CNN
-F 3 "" H 4050 6650 50  0001 C CNN
-	1    4050 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VBUS #PWR025
-U 1 1 605FFA11
-P 5750 6650
-F 0 "#PWR025" H 5750 6500 50  0001 C CNN
-F 1 "VBUS" H 5765 6823 50  0000 C CNN
-F 2 "" H 5750 6650 50  0001 C CNN
-F 3 "" H 5750 6650 50  0001 C CNN
-	1    5750 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR013
-U 1 1 6061613E
-P 3550 7600
-F 0 "#PWR013" H 3550 7350 50  0001 C CNN
-F 1 "GND" H 3555 7427 50  0001 C CNN
-F 2 "" H 3550 7600 50  0001 C CNN
-F 3 "" H 3550 7600 50  0001 C CNN
-	1    3550 7600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR022
-U 1 1 606169E8
-P 5200 7600
-F 0 "#PWR022" H 5200 7350 50  0001 C CNN
-F 1 "GND" H 5205 7427 50  0001 C CNN
-F 2 "" H 5200 7600 50  0001 C CNN
-F 3 "" H 5200 7600 50  0001 C CNN
-	1    5200 7600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power_Protection:SN75240 U5
-U 1 1 6061C4E6
-P 9200 3900
-F 0 "U5" H 9200 4125 50  0000 C CNN
-F 1 "SN75240" H 9200 4034 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 9350 3750 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 9400 3750 50  0001 C CNN
-F 4 "1.31" H 9200 4225 50  0001 C CNN "Price"
-F 5 "595-SN75240PWR" H 9200 4225 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9200 4225 50  0001 C CNN "Vendor"
-	1    9200 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power_Protection:SN75240 U4
-U 2 1 6067DC66
-P 9200 1900
-F 0 "U4" H 9200 2125 50  0000 C CNN
-F 1 "SN75240" H 9200 2034 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 9350 1750 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 9400 1750 50  0001 C CNN
-F 4 "1.31" H 9200 2225 50  0001 C CNN "Price"
-F 5 "595-SN75240PWR" H 9200 2225 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9200 2225 50  0001 C CNN "Vendor"
-	2    9200 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR041
-U 1 1 606A7302
-P 9200 2200
-F 0 "#PWR041" H 9200 1950 50  0001 C CNN
-F 1 "GND" H 9205 2027 50  0001 C CNN
-F 2 "" H 9200 2200 50  0001 C CNN
-F 3 "" H 9200 2200 50  0001 C CNN
-	1    9200 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power_Protection:SN75240 U5
-U 2 1 606BEBB3
-P 9250 6000
-F 0 "U5" H 9250 6225 50  0000 C CNN
-F 1 "SN75240" H 9250 6134 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 9400 5850 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 9450 5850 50  0001 C CNN
-F 4 "1.31" H 9250 6325 50  0001 C CNN "Price"
-F 5 "595-SN75240PWR" H 9250 6325 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9250 6325 50  0001 C CNN "Vendor"
-	2    9250 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR042
-U 1 1 606D17C5
-P 9200 4200
-F 0 "#PWR042" H 9200 3950 50  0001 C CNN
-F 1 "GND" H 9205 4027 50  0001 C CNN
-F 2 "" H 9200 4200 50  0001 C CNN
-F 3 "" H 9200 4200 50  0001 C CNN
-	1    9200 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR043
-U 1 1 60705D3C
-P 9250 6300
-F 0 "#PWR043" H 9250 6050 50  0001 C CNN
-F 1 "GND" H 9255 6127 50  0001 C CNN
-F 2 "" H 9250 6300 50  0001 C CNN
-F 3 "" H 9250 6300 50  0001 C CNN
-	1    9250 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Crystal Y1
-U 1 1 60761B41
-P 1650 7100
-F 0 "Y1" H 1650 7368 50  0000 C CNN
-F 1 "6MHz" H 1650 7277 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD" H 1650 7100 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/xt49m-1763016.pdf" H 1650 7100 50  0001 C CNN
-F 4 "0.95" H 1650 7100 50  0001 C CNN "Price"
-F 5 "73-XT49M600-20" H 1650 7100 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1650 7100 50  0001 C CNN "Vendor"
-	1    1650 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R1
-U 1 1 60763844
-P 1850 6850
-F 0 "R1" H 1918 6896 50  0000 L CNN
-F 1 "27Ω" H 1918 6805 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 1850 6850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 1850 6850 50  0001 C CNN
-F 4 "0.14" H 1918 6996 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0727RL" H 1918 6996 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1918 6996 50  0001 C CNN "Vendor"
-	1    1850 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 6077798D
-P 1850 7350
-F 0 "C2" H 1942 7396 50  0000 L CNN
-F 1 "22pF" H 1942 7305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1850 7350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 1850 7350 50  0001 C CNN
-F 4 "0.61" H 1942 7496 50  0001 C CNN "Price"
-F 5 "710-885012009007" H 1942 7496 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1942 7496 50  0001 C CNN "Vendor"
-	1    1850 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C1
-U 1 1 60778987
-P 1450 7350
-F 0 "C1" H 1542 7396 50  0000 L CNN
-F 1 "22pF" H 1542 7305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1450 7350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 1450 7350 50  0001 C CNN
-F 4 "0.61" H 1542 7496 50  0001 C CNN "Price"
-F 5 "710-885012009007" H 1542 7496 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1542 7496 50  0001 C CNN "Vendor"
-	1    1450 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 60784178
-P 1850 7500
-F 0 "#PWR06" H 1850 7250 50  0001 C CNN
-F 1 "GND" H 1855 7327 50  0001 C CNN
-F 2 "" H 1850 7500 50  0001 C CNN
-F 3 "" H 1850 7500 50  0001 C CNN
-	1    1850 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 6078B604
-P 1450 7500
-F 0 "#PWR02" H 1450 7250 50  0001 C CNN
-F 1 "GND" H 1455 7327 50  0001 C CNN
-F 2 "" H 1450 7500 50  0001 C CNN
-F 3 "" H 1450 7500 50  0001 C CNN
-	1    1450 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR018
-U 1 1 607949C9
-P 4300 4850
-F 0 "#PWR018" H 4300 4600 50  0001 C CNN
-F 1 "GND" H 4305 4677 50  0001 C CNN
-F 2 "" H 4300 4850 50  0001 C CNN
-F 3 "" H 4300 4850 50  0001 C CNN
-	1    4300 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP3
-U 1 1 607A2993
-P 2300 5400
-F 0 "JP3" V 2346 5468 50  0000 L CNN
-F 1 "NPINT1_SEL" V 2255 5468 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2300 5400 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 2300 5400 50  0001 C CNN
-F 4 "0.1" H 2346 5568 50  0001 C CNN "Price"
-F 5 "649-1012937890301BLF" H 2346 5568 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2346 5568 50  0001 C CNN "Vendor"
-	1    2300 5400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP2
-U 1 1 607A501B
-P 2300 4950
-F 0 "JP2" V 2346 5018 50  0000 L CNN
-F 1 "NPINT0_SEL" V 2255 5018 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2300 4950 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 2300 4950 50  0001 C CNN
-F 4 "0.1" H 2346 5118 50  0001 C CNN "Price"
-F 5 "649-1012937890301BLF" H 2346 5118 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2346 5118 50  0001 C CNN "Vendor"
-	1    2300 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR03
-U 1 1 607B45A5
-P 1550 4100
-F 0 "#PWR03" H 1550 3950 50  0001 C CNN
-F 1 "+3V3" H 1565 4273 50  0000 C CNN
-F 2 "" H 1550 4100 50  0001 C CNN
-F 3 "" H 1550 4100 50  0001 C CNN
-	1    1550 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 607BC6A0
-P 1750 6050
-F 0 "#PWR05" H 1750 5800 50  0001 C CNN
-F 1 "GND" H 1755 5877 50  0001 C CNN
-F 2 "" H 1750 6050 50  0001 C CNN
-F 3 "" H 1750 6050 50  0001 C CNN
-	1    1750 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP1
-U 1 1 607EC4C7
-P 2300 4450
-F 0 "JP1" V 2346 4517 50  0000 L CNN
-F 1 "NP3_SEL" V 2255 4517 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2300 4450 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 2300 4450 50  0001 C CNN
-F 4 "0.1" H 2346 4617 50  0001 C CNN "Price"
-F 5 "649-1012937890301BLF" H 2346 4617 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2346 4617 50  0001 C CNN "Vendor"
-	1    2300 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR017
-U 1 1 608519AD
-P 4300 4300
-F 0 "#PWR017" H 4300 4150 50  0001 C CNN
-F 1 "+3V3" H 4315 4473 50  0000 C CNN
-F 2 "" H 4300 4300 50  0001 C CNN
-F 3 "" H 4300 4300 50  0001 C CNN
-	1    4300 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR016
-U 1 1 608545D3
-P 4300 3400
-F 0 "#PWR016" H 4300 3150 50  0001 C CNN
-F 1 "GND" H 4305 3227 50  0001 C CNN
-F 2 "" H 4300 3400 50  0001 C CNN
-F 3 "" H 4300 3400 50  0001 C CNN
-	1    4300 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP4
-U 1 1 608B6707
-P 2300 5850
-F 0 "JP4" V 2346 5918 50  0000 L CNN
-F 1 "GANGED_SEL" V 2255 5918 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2300 5850 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 2300 5850 50  0001 C CNN
-F 4 "0.1" H 2346 6018 50  0001 C CNN "Price"
-F 5 "649-1012937890301BLF" H 2346 6018 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2346 6018 50  0001 C CNN "Vendor"
-	1    2300 5850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint_Flag TP1
-U 1 1 609425DF
-P 6700 2400
-F 0 "TP1" H 6960 2494 50  0000 L CNN
-F 1 "SUSPND" H 6960 2403 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6900 2400 50  0001 C CNN
-F 3 "-" H 6900 2400 50  0001 C CNN
-F 4 "0" H 6960 2594 50  0001 C CNN "Price"
-F 5 "-" H 6960 2594 50  0001 C CNN "Vendor Part #"
-F 6 "-" H 6960 2594 50  0001 C CNN "Vendor"
-	1    6700 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_SPST SW1
-U 1 1 6094494B
-P 4250 2400
-F 0 "SW1" H 4250 2635 50  0000 C CNN
-F 1 "RESET" H 4250 2544 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP" H 4250 2400 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf" H 4250 2400 50  0001 C CNN
-F 4 "0.58" H 4250 2735 50  0001 C CNN "Price"
-F 5 "653-B3FS-1002P" H 4250 2735 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 4250 2735 50  0001 C CNN "Vendor"
-	1    4250 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR014
-U 1 1 609459A7
-P 3950 2500
-F 0 "#PWR014" H 3950 2250 50  0001 C CNN
-F 1 "GND" H 3955 2327 50  0001 C CNN
-F 2 "" H 3950 2500 50  0001 C CNN
-F 3 "" H 3950 2500 50  0001 C CNN
-	1    3950 2500
+Connection ~ 12700 5350
+Text Notes 4500 7450 0    50   ~ 0
+Disable\nOUT4
+Wire Wire Line
+	4500 7300 4700 7300
+Wire Wire Line
+	4500 7100 4500 7300
+Wire Wire Line
+	4500 6700 4500 6900
+$Comp
+L power:VBUS #PWR0101
+U 1 1 605E8A16
+P 4500 6700
+F 0 "#PWR0101" H 4500 6550 50  0001 C CNN
+F 1 "VBUS" H 4515 6873 50  0000 C CNN
+F 2 "" H 4500 6700 50  0001 C CNN
+F 3 "" H 4500 6700 50  0001 C CNN
+	1    4500 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R3
+U 1 1 605E5806
+P 4500 7000
+F 0 "R3" H 4568 7046 50  0000 L CNN
+F 1 "15kΩ" H 4568 6955 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4500 7000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 4500 7000 50  0001 C CNN
+F 4 "0.16" H 4568 7146 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0715KL" H 4568 7146 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 4568 7146 50  0001 C CNN "Vendor"
+	1    4500 7000
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4700 4100
+NoConn ~ 4700 6900
+NoConn ~ 5700 7100
+Connection ~ 1900 3550
+Connection ~ 1850 7100
+Connection ~ 1450 7100
+Connection ~ 4300 3400
+Connection ~ 1750 6050
+Connection ~ 1550 5650
+Connection ~ 1550 4250
+Connection ~ 1750 4650
+Connection ~ 1550 4750
+Connection ~ 1550 5200
+Connection ~ 1750 5600
+Connection ~ 1750 5150
+Connection ~ 9250 6300
+Connection ~ 9300 5450
+Connection ~ 9200 5350
+Connection ~ 9200 4200
+Connection ~ 9250 3350
+Connection ~ 9150 3250
+Connection ~ 9250 1350
+Connection ~ 9150 1250
+Connection ~ 9200 2200
+Connection ~ 9350 2750
+Connection ~ 3500 1050
+Connection ~ 3150 1050
+Connection ~ 4650 1050
+Connection ~ 3750 1050
+Connection ~ 9350 4850
+Connection ~ 8750 5450
+Connection ~ 8600 5350
+Connection ~ 7850 5450
+Connection ~ 7700 5350
+Connection ~ 8750 3350
+Connection ~ 8600 3250
+Connection ~ 7850 3350
+Connection ~ 7700 3250
+Connection ~ 9350 750 
+Connection ~ 8750 1350
+Connection ~ 8600 1250
+Connection ~ 7850 1350
+Connection ~ 7700 1250
+Connection ~ 1800 2250
+Connection ~ 1700 2350
+Connection ~ 2800 2250
+Connection ~ 2600 2350
+Connection ~ 5700 5200
+Connection ~ 5600 2000
+Wire Wire Line
+	1900 3550 2000 3550
+Wire Wire Line
+	1800 3550 1900 3550
+Wire Wire Line
+	1850 7100 1850 7250
+Wire Wire Line
+	1800 7100 1850 7100
+Wire Wire Line
+	1450 7100 1450 7250
+Wire Wire Line
+	1450 7100 1500 7100
+Wire Wire Line
+	1450 6600 1450 7100
+Wire Wire Line
+	1850 6950 1850 7100
+Wire Wire Line
+	4450 2400 4700 2400
+Wire Wire Line
+	3950 2400 4050 2400
+Wire Wire Line
+	3950 2500 3950 2400
+Wire Wire Line
+	4300 3400 4700 3400
+Wire Wire Line
+	4300 3300 4300 3400
+Wire Wire Line
+	1550 5650 1550 6050
+Wire Wire Line
+	1550 4250 1550 4750
+Wire Wire Line
+	2300 4250 1550 4250
+Wire Wire Line
+	1750 4650 1750 4150
+Wire Wire Line
+	2300 4650 1750 4650
+Wire Wire Line
+	2300 5650 1550 5650
+Wire Wire Line
+	2300 6050 1750 6050
+Wire Wire Line
+	2650 5850 2450 5850
+Wire Wire Line
+	1550 5200 1550 5650
+Wire Wire Line
+	2650 4450 2450 4450
+Wire Wire Line
+	4300 3300 4700 3300
+Wire Wire Line
+	4700 4300 4300 4300
+Wire Wire Line
+	1550 4750 1550 5200
+Wire Wire Line
+	2300 4750 1550 4750
+Wire Wire Line
+	2300 5200 1550 5200
+Wire Wire Line
+	1750 5600 1750 5150
+Wire Wire Line
+	2300 5600 1750 5600
+Wire Wire Line
+	1750 5150 1750 4650
+Wire Wire Line
+	2300 5150 1750 5150
+Wire Wire Line
+	1750 6050 1750 5600
+Wire Wire Line
+	1550 4100 1550 4250
+Wire Wire Line
+	2650 4950 2450 4950
+Wire Wire Line
+	2650 5400 2450 5400
+Wire Wire Line
+	4300 4600 4300 4850
+Wire Wire Line
+	4700 4600 4300 4600
+Wire Wire Line
+	1450 7500 1450 7450
+Wire Wire Line
+	1850 7500 1850 7450
+Wire Wire Line
+	1950 6600 1450 6600
+Wire Wire Line
+	1850 6700 1850 6750
+Wire Wire Line
+	1950 6700 1850 6700
+Wire Wire Line
+	9250 6300 9350 6300
+Wire Wire Line
+	9150 6300 9250 6300
+Wire Wire Line
+	9300 5450 9500 5450
+Wire Wire Line
+	9750 5900 9750 6000
+Wire Wire Line
+	9450 5900 9750 5900
+Wire Wire Line
+	9450 5800 9450 5900
+Wire Wire Line
+	9350 5800 9450 5800
+Wire Wire Line
+	9350 5700 9350 5800
+Wire Wire Line
+	9300 5700 9350 5700
+Wire Wire Line
+	9300 5450 9300 5700
+Wire Wire Line
+	9200 5350 9500 5350
+Wire Wire Line
+	9200 5700 9200 5350
+Wire Wire Line
+	9150 5700 9200 5700
+Wire Wire Line
+	9150 5800 9150 5700
+Wire Wire Line
+	9050 5800 9150 5800
+Wire Wire Line
+	9050 5900 9050 5800
+Wire Wire Line
+	8750 5900 9050 5900
+Wire Wire Line
+	8750 6000 8750 5900
+Wire Wire Line
+	9200 4200 9300 4200
+Wire Wire Line
+	9100 4200 9200 4200
+Wire Wire Line
+	9250 3350 9500 3350
+Wire Wire Line
+	9700 3800 9700 3900
+Wire Wire Line
+	9400 3800 9700 3800
+Wire Wire Line
+	9400 3700 9400 3800
+Wire Wire Line
+	9300 3700 9400 3700
+Wire Wire Line
+	9300 3600 9300 3700
+Wire Wire Line
+	9250 3600 9300 3600
+Wire Wire Line
+	9250 3350 9250 3600
+Wire Wire Line
+	9150 3250 9500 3250
+Wire Wire Line
+	9150 3600 9150 3250
+Wire Wire Line
+	9100 3600 9150 3600
+Wire Wire Line
+	9100 3700 9100 3600
+Wire Wire Line
+	9000 3700 9100 3700
+Wire Wire Line
+	9000 3800 9000 3700
+Wire Wire Line
+	8700 3800 9000 3800
+Wire Wire Line
+	8700 3900 8700 3800
+Wire Wire Line
+	9250 1350 9500 1350
+Wire Wire Line
+	9700 1800 9700 1900
+Wire Wire Line
+	9400 1800 9700 1800
+Wire Wire Line
+	9400 1600 9400 1800
+Wire Wire Line
+	9250 1600 9400 1600
+Wire Wire Line
+	9250 1350 9250 1600
+Wire Wire Line
+	8750 1350 9250 1350
+Wire Wire Line
+	9150 1250 9150 1600
+Wire Wire Line
+	9150 1250 9500 1250
+Wire Wire Line
+	9000 1600 9150 1600
+Wire Wire Line
+	9000 1800 9000 1600
+Wire Wire Line
+	8700 1800 9000 1800
+Wire Wire Line
+	8700 1900 8700 1800
+Wire Wire Line
+	9200 2200 9300 2200
+Wire Wire Line
+	9100 2200 9200 2200
+Wire Wire Line
+	5750 6800 5750 6650
+Wire Wire Line
+	5700 6800 5750 6800
+Wire Wire Line
+	4050 6650 4050 6800
+Wire Wire Line
+	3500 1050 3750 1050
+Wire Wire Line
+	3150 1050 3500 1050
+Wire Wire Line
+	4650 1050 4850 1050
+Wire Wire Line
+	4400 1050 4650 1050
+Wire Wire Line
+	3750 1050 3800 1050
+Wire Wire Line
+	3750 1150 3750 1050
+Wire Wire Line
+	3800 1150 3750 1150
+Wire Wire Line
+	3000 1050 3150 1050
+Wire Wire Line
+	9350 4850 9350 4800
+Wire Wire Line
+	9350 4850 9000 4850
+Wire Wire Line
+	9350 5150 9350 4850
+Wire Wire Line
+	9500 5150 9350 5150
+Wire Wire Line
+	8750 5450 9300 5450
+Wire Wire Line
+	8600 5350 9200 5350
+Wire Wire Line
+	8750 5500 8750 5450
+Wire Wire Line
+	8600 5500 8600 5350
+Wire Wire Line
+	7850 5450 8200 5450
+Wire Wire Line
+	7850 5500 7850 5450
+Wire Wire Line
+	7700 5350 8200 5350
+Wire Wire Line
+	7700 5500 7700 5350
+Wire Wire Line
+	8400 5450 8750 5450
+Wire Wire Line
+	8400 5350 8600 5350
+Wire Wire Line
+	7450 5450 7850 5450
+Wire Wire Line
+	7450 5350 7700 5350
+Wire Wire Line
+	9350 2750 9350 2700
+Wire Wire Line
+	9350 2750 9000 2750
+Wire Wire Line
+	9350 3050 9350 2750
+Wire Wire Line
+	9500 3050 9350 3050
+Wire Wire Line
+	8750 3350 9250 3350
+Wire Wire Line
+	8600 3250 9150 3250
+Wire Wire Line
+	8750 3400 8750 3350
+Wire Wire Line
+	8600 3400 8600 3250
+Wire Wire Line
+	7850 3350 8200 3350
+Wire Wire Line
+	7850 3400 7850 3350
+Wire Wire Line
+	7700 3250 8200 3250
+Wire Wire Line
+	7700 3400 7700 3250
+Wire Wire Line
+	8400 3350 8750 3350
+Wire Wire Line
+	8400 3250 8600 3250
+Wire Wire Line
+	7450 3350 7850 3350
+Wire Wire Line
+	7450 3250 7700 3250
+Wire Wire Line
+	9350 750  9350 700 
+Wire Wire Line
+	9350 750  9000 750 
+Wire Wire Line
+	9350 1050 9350 750 
+Wire Wire Line
+	9500 1050 9350 1050
+Wire Wire Line
+	8600 1250 9150 1250
+Wire Wire Line
+	8750 1400 8750 1350
+Wire Wire Line
+	8600 1400 8600 1250
+Wire Wire Line
+	7850 1350 8200 1350
+Wire Wire Line
+	7850 1400 7850 1350
+Wire Wire Line
+	7700 1250 8200 1250
+Wire Wire Line
+	7700 1400 7700 1250
+Wire Wire Line
+	8400 1350 8750 1350
+Wire Wire Line
+	8400 1250 8600 1250
+Wire Wire Line
+	7450 1350 7850 1350
+Wire Wire Line
+	7450 1250 7700 1250
+Wire Wire Line
+	4450 2900 4700 2900
+Wire Wire Line
+	4450 2700 4700 2700
+Wire Wire Line
+	1600 1700 1600 2050
+Wire Wire Line
+	1800 2250 2200 2250
+Wire Wire Line
+	1800 2950 1800 2250
+Wire Wire Line
+	2400 2950 1800 2950
+Wire Wire Line
+	2400 3250 2400 2950
+Wire Wire Line
+	1700 2350 2200 2350
+Wire Wire Line
+	1700 2950 1700 2350
+Wire Wire Line
+	1400 2950 1700 2950
+Wire Wire Line
+	1400 3250 1400 2950
+Wire Wire Line
+	2800 2250 3050 2250
+Wire Wire Line
+	2800 2450 2800 2250
+Wire Wire Line
+	2600 2350 3050 2350
+Wire Wire Line
+	2600 2450 2600 2350
+Wire Wire Line
+	2600 2650 2600 2700
+Wire Wire Line
+	2800 2650 2800 2700
+Wire Wire Line
+	1300 2650 1300 2700
+Wire Wire Line
+	2400 2350 2600 2350
+Wire Wire Line
+	2400 2250 2800 2250
+Wire Wire Line
+	1600 2350 1700 2350
+Wire Wire Line
+	1600 2250 1800 2250
+Wire Wire Line
+	5700 5200 5800 5200
+Wire Wire Line
+	5700 5200 5600 5200
+Wire Wire Line
+	5700 5250 5700 5200
+Wire Wire Line
+	5600 2000 5800 2000
+Wire Wire Line
+	5250 2000 5600 2000
+Wire Wire Line
+	5250 1750 5250 2000
+Text Label 2650 5850 0    50   ~ 0
+GANGED
+Text Label 2650 4450 0    50   ~ 0
+NP3
+Text Label 2650 4950 0    50   ~ 0
+NPINT0
+Text Label 2650 5400 0    50   ~ 0
+NPINT1
+Text Label 4700 4200 2    50   ~ 0
+GANGED
+Text Label 4700 3600 2    50   ~ 0
+NP3
+Text Label 4700 3700 2    50   ~ 0
+NPINT0
+Text Label 4700 3800 2    50   ~ 0
+NPINT1
+Text Label 1950 6700 0    50   ~ 0
+XTAL2
+Text Label 1950 6600 0    50   ~ 0
+XTAL1
+Text Label 4700 4800 2    50   ~ 0
+XTAL2
+Text Label 4700 4700 2    50   ~ 0
+XTAL1
+Text Label 6700 4800 0    50   ~ 0
+EN3
+Text Label 6700 4300 0    50   ~ 0
+OC3
+Text Label 6700 4700 0    50   ~ 0
+EN2
+Text Label 6700 4600 0    50   ~ 0
+EN1
+Text Label 6700 4200 0    50   ~ 0
+OC2
+Text Label 6700 4100 0    50   ~ 0
+OC1
+Text Label 5700 7000 0    50   ~ 0
+5VC
+Text Label 4050 7100 0    50   ~ 0
+5VB
+Text Label 4050 7000 0    50   ~ 0
+5VA
+Text Label 4700 7200 2    50   ~ 0
+EN3
+Text Label 4700 6800 2    50   ~ 0
+OC3
+Text Label 3050 7300 2    50   ~ 0
+EN2
+Text Label 3050 7200 2    50   ~ 0
+EN1
+Text Label 3050 6900 2    50   ~ 0
+OC2
+Text Label 3050 6800 2    50   ~ 0
+OC1
+Text Label 9350 4800 0    50   ~ 0
+5VC
+Text Label 7450 5450 0    50   ~ 0
+D3-
+Text Label 7450 5350 0    50   ~ 0
+D3+
+Text Label 9350 2700 0    50   ~ 0
+5VB
+Text Label 7450 3350 0    50   ~ 0
+D2-
+Text Label 7450 3250 0    50   ~ 0
+D2+
+Text Label 9350 700  0    50   ~ 0
+5VA
+Text Label 7450 1350 0    50   ~ 0
+D1-
+Text Label 7450 1250 0    50   ~ 0
+D1+
+Text Label 6700 3700 0    50   ~ 0
+D3-
+Text Label 6700 3600 0    50   ~ 0
+D3+
+Text Label 6700 3300 0    50   ~ 0
+D2-
+Text Label 6700 3200 0    50   ~ 0
+D2+
+Text Label 6700 2900 0    50   ~ 0
+D1-
+Text Label 6700 2800 0    50   ~ 0
+D1+
+Text Label 3050 2350 0    50   ~ 0
+D0-
+Text Label 3050 2250 0    50   ~ 0
+D0+
+Text Label 4700 3000 2    50   ~ 0
+D0-
+Text Label 4700 2900 2    50   ~ 0
+D0+
+$Comp
+L Device:CP C40
+U 1 1 605B07B9
+P 9000 5000
+F 0 "C40" H 9118 5046 50  0000 L CNN
+F 1 "120μF" H 9118 4955 50  0000 L CNN
+F 2 "Vishay:CAPPM7343X310N" H 9038 4850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/293d-1763499.pdf" H 9000 5000 50  0001 C CNN
+F 4 "0.87" H 9118 5146 50  0001 C CNN "Price"
+F 5 "74-293D127X96R3D2TE3" H 9118 5146 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 9118 5146 50  0001 C CNN "Vendor"
+	1    9000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C30
+U 1 1 605AB641
+P 9000 2900
+F 0 "C30" H 9118 2946 50  0000 L CNN
+F 1 "120μF" H 9118 2855 50  0000 L CNN
+F 2 "Vishay:CAPPM7343X310N" H 9038 2750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/293d-1763499.pdf" H 9000 2900 50  0001 C CNN
+F 4 "0.87" H 9118 3046 50  0001 C CNN "Price"
+F 5 "74-293D127X96R3D2TE3" H 9118 3046 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 9118 3046 50  0001 C CNN "Vendor"
+	1    9000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C20
+U 1 1 605A6757
+P 9000 900
+F 0 "C20" H 9118 946 50  0000 L CNN
+F 1 "120μF" H 9118 855 50  0000 L CNN
+F 2 "Vishay:CAPPM7343X310N" H 9038 750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/293d-1763499.pdf" H 9000 900 50  0001 C CNN
+F 4 "0.87" H 9118 1046 50  0001 C CNN "Price"
+F 5 "74-293D127X96R3D2TE3" H 9118 1046 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 9118 1046 50  0001 C CNN "Vendor"
+	1    9000 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1192,579 +605,1167 @@ F 6 "Mouser" H 8818 5746 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C20
-U 1 1 605A6757
-P 9000 900
-F 0 "C20" H 9118 946 50  0000 L CNN
-F 1 "120μF" H 9118 855 50  0000 L CNN
-F 2 "Vishay-cap:CAPPM7343X310N" H 9038 750 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/293d-1763499.pdf" H 9000 900 50  0001 C CNN
-F 4 "0.87" H 9118 1046 50  0001 C CNN "Price"
-F 5 "74-293D127X96R3D2TE3" H 9118 1046 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9118 1046 50  0001 C CNN "Vendor"
-	1    9000 900 
+L power:GND #PWR014
+U 1 1 609459A7
+P 3950 2500
+F 0 "#PWR014" H 3950 2250 50  0001 C CNN
+F 1 "GND" H 3955 2327 50  0001 C CNN
+F 2 "" H 3950 2500 50  0001 C CNN
+F 3 "" H 3950 2500 50  0001 C CNN
+	1    3950 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C30
-U 1 1 605AB641
-P 9000 2900
-F 0 "C30" H 9118 2946 50  0000 L CNN
-F 1 "120μF" H 9118 2855 50  0000 L CNN
-F 2 "Vishay-cap:CAPPM7343X310N" H 9038 2750 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/293d-1763499.pdf" H 9000 2900 50  0001 C CNN
-F 4 "0.87" H 9118 3046 50  0001 C CNN "Price"
-F 5 "74-293D127X96R3D2TE3" H 9118 3046 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9118 3046 50  0001 C CNN "Vendor"
-	1    9000 2900
+L Switch:SW_SPST SW1
+U 1 1 6094494B
+P 4250 2400
+F 0 "SW1" H 4250 2635 50  0000 C CNN
+F 1 "RESET" H 4250 2544 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP" H 4250 2400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf" H 4250 2400 50  0001 C CNN
+F 4 "0.58" H 4250 2735 50  0001 C CNN "Price"
+F 5 "653-B3FS-1002P" H 4250 2735 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 4250 2735 50  0001 C CNN "Vendor"
+	1    4250 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C40
-U 1 1 605B07B9
-P 9000 5000
-F 0 "C40" H 9118 5046 50  0000 L CNN
-F 1 "120μF" H 9118 4955 50  0000 L CNN
-F 2 "Vishay-cap:CAPPM7343X310N" H 9038 4850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/293d-1763499.pdf" H 9000 5000 50  0001 C CNN
-F 4 "0.87" H 9118 5146 50  0001 C CNN "Price"
-F 5 "74-293D127X96R3D2TE3" H 9118 5146 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9118 5146 50  0001 C CNN "Vendor"
-	1    9000 5000
+L Connector:TestPoint_Flag TP1
+U 1 1 609425DF
+P 6700 2400
+F 0 "TP1" H 6960 2494 50  0000 L CNN
+F 1 "SUSPND" H 6960 2403 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6900 2400 50  0001 C CNN
+F 3 "-" H 6900 2400 50  0001 C CNN
+F 4 "0" H 6960 2594 50  0001 C CNN "Price"
+F 5 "-" H 6960 2594 50  0001 C CNN "Vendor Part #"
+F 6 "-" H 6960 2594 50  0001 C CNN "Vendor"
+	1    6700 2400
 	1    0    0    -1  
 $EndComp
-Text Label 4700 2900 2    50   ~ 0
-D0+
-Text Label 4700 3000 2    50   ~ 0
-D0-
-Text Label 3050 2250 0    50   ~ 0
-D0+
-Text Label 3050 2350 0    50   ~ 0
-D0-
-Text Label 6700 2800 0    50   ~ 0
-D1+
-Text Label 6700 2900 0    50   ~ 0
-D1-
-Text Label 6700 3200 0    50   ~ 0
-D2+
-Text Label 6700 3300 0    50   ~ 0
-D2-
-Text Label 6700 3600 0    50   ~ 0
-D3+
-Text Label 6700 3700 0    50   ~ 0
-D3-
-Text Label 7450 1250 0    50   ~ 0
-D1+
-Text Label 7450 1350 0    50   ~ 0
-D1-
-Text Label 9350 700  0    50   ~ 0
-5VA
-Text Label 7450 3250 0    50   ~ 0
-D2+
-Text Label 7450 3350 0    50   ~ 0
-D2-
-Text Label 9350 2700 0    50   ~ 0
-5VB
-Text Label 7450 5350 0    50   ~ 0
-D3+
-Text Label 7450 5450 0    50   ~ 0
-D3-
-Text Label 9350 4800 0    50   ~ 0
-5VC
-Text Label 3050 6800 2    50   ~ 0
-OC1
-Text Label 3050 6900 2    50   ~ 0
-OC2
-Text Label 3050 7200 2    50   ~ 0
-EN1
-Text Label 3050 7300 2    50   ~ 0
-EN2
-Text Label 4700 6800 2    50   ~ 0
-OC3
-Text Label 4700 7200 2    50   ~ 0
-EN3
-Text Label 4050 7000 0    50   ~ 0
-5VA
-Text Label 4050 7100 0    50   ~ 0
-5VB
-Text Label 5700 7000 0    50   ~ 0
-5VC
-Text Label 6700 4100 0    50   ~ 0
-OC1
-Text Label 6700 4200 0    50   ~ 0
-OC2
-Text Label 6700 4600 0    50   ~ 0
-EN1
-Text Label 6700 4700 0    50   ~ 0
-EN2
-Text Label 6700 4300 0    50   ~ 0
-OC3
-Text Label 6700 4800 0    50   ~ 0
-EN3
-Text Label 4700 4700 2    50   ~ 0
-XTAL1
-Text Label 4700 4800 2    50   ~ 0
-XTAL2
-Text Label 1950 6600 0    50   ~ 0
-XTAL1
-Text Label 1950 6700 0    50   ~ 0
-XTAL2
-Text Label 4700 3800 2    50   ~ 0
-NPINT1
-Text Label 4700 3700 2    50   ~ 0
-NPINT0
-Text Label 4700 3600 2    50   ~ 0
-NP3
-Text Label 4700 4200 2    50   ~ 0
-GANGED
-Text Label 2650 5400 0    50   ~ 0
-NPINT1
-Text Label 2650 4950 0    50   ~ 0
-NPINT0
-Text Label 2650 4450 0    50   ~ 0
-NP3
-Text Label 2650 5850 0    50   ~ 0
-GANGED
-Wire Wire Line
-	5250 1750 5250 2000
-Wire Wire Line
-	5250 2000 5600 2000
-Wire Wire Line
-	5600 2000 5800 2000
-Wire Wire Line
-	5700 5250 5700 5200
-Wire Wire Line
-	5700 5200 5600 5200
-Wire Wire Line
-	5700 5200 5800 5200
-Wire Wire Line
-	1600 2250 1800 2250
-Wire Wire Line
-	1600 2350 1700 2350
-Wire Wire Line
-	2400 2250 2800 2250
-Wire Wire Line
-	2400 2350 2600 2350
-Wire Wire Line
-	1300 2650 1300 2700
-Wire Wire Line
-	2800 2650 2800 2700
-Wire Wire Line
-	2600 2650 2600 2700
-Wire Wire Line
-	2600 2450 2600 2350
-Wire Wire Line
-	2600 2350 3050 2350
-Wire Wire Line
-	2800 2450 2800 2250
-Wire Wire Line
-	2800 2250 3050 2250
-Wire Wire Line
-	1400 3250 1400 2950
-Wire Wire Line
-	1400 2950 1700 2950
-Wire Wire Line
-	1700 2950 1700 2350
-Wire Wire Line
-	1700 2350 2200 2350
-Wire Wire Line
-	2400 3250 2400 2950
-Wire Wire Line
-	2400 2950 1800 2950
-Wire Wire Line
-	1800 2950 1800 2250
-Wire Wire Line
-	1800 2250 2200 2250
-Wire Wire Line
-	1600 1700 1600 2050
-Wire Wire Line
-	4450 2700 4700 2700
-Wire Wire Line
-	4450 2900 4700 2900
-Wire Wire Line
-	7450 1250 7700 1250
-Wire Wire Line
-	7450 1350 7850 1350
-Wire Wire Line
-	8400 1250 8600 1250
-Wire Wire Line
-	8400 1350 8750 1350
-Wire Wire Line
-	7700 1400 7700 1250
-Wire Wire Line
-	7700 1250 8200 1250
-Wire Wire Line
-	7850 1400 7850 1350
-Wire Wire Line
-	7850 1350 8200 1350
-Wire Wire Line
-	8600 1400 8600 1250
-Wire Wire Line
-	8750 1400 8750 1350
-Wire Wire Line
-	8600 1250 9150 1250
-Wire Wire Line
-	9500 1050 9350 1050
-Wire Wire Line
-	9350 1050 9350 750 
-Wire Wire Line
-	9350 750  9000 750 
-Wire Wire Line
-	9350 750  9350 700 
-Wire Wire Line
-	7450 3250 7700 3250
-Wire Wire Line
-	7450 3350 7850 3350
-Wire Wire Line
-	8400 3250 8600 3250
-Wire Wire Line
-	8400 3350 8750 3350
-Wire Wire Line
-	7700 3400 7700 3250
-Wire Wire Line
-	7700 3250 8200 3250
-Wire Wire Line
-	7850 3400 7850 3350
-Wire Wire Line
-	7850 3350 8200 3350
-Wire Wire Line
-	8600 3400 8600 3250
-Wire Wire Line
-	8750 3400 8750 3350
-Wire Wire Line
-	8600 3250 9150 3250
-Wire Wire Line
-	8750 3350 9250 3350
-Wire Wire Line
-	9500 3050 9350 3050
-Wire Wire Line
-	9350 3050 9350 2750
-Wire Wire Line
-	9350 2750 9000 2750
-Wire Wire Line
-	9350 2750 9350 2700
-Wire Wire Line
-	7450 5350 7700 5350
-Wire Wire Line
-	7450 5450 7850 5450
-Wire Wire Line
-	8400 5350 8600 5350
-Wire Wire Line
-	8400 5450 8750 5450
-Wire Wire Line
-	7700 5500 7700 5350
-Wire Wire Line
-	7700 5350 8200 5350
-Wire Wire Line
-	7850 5500 7850 5450
-Wire Wire Line
-	7850 5450 8200 5450
-Wire Wire Line
-	8600 5500 8600 5350
-Wire Wire Line
-	8750 5500 8750 5450
-Wire Wire Line
-	8600 5350 9200 5350
-Wire Wire Line
-	8750 5450 9300 5450
-Wire Wire Line
-	9500 5150 9350 5150
-Wire Wire Line
-	9350 5150 9350 4850
-Wire Wire Line
-	9350 4850 9000 4850
-Wire Wire Line
-	9350 4850 9350 4800
-Wire Wire Line
-	3000 1050 3150 1050
-Wire Wire Line
-	3800 1150 3750 1150
-Wire Wire Line
-	3750 1150 3750 1050
-Wire Wire Line
-	3750 1050 3800 1050
-Wire Wire Line
-	4400 1050 4650 1050
-Wire Wire Line
-	4650 1050 4850 1050
-Wire Wire Line
-	3150 1050 3500 1050
-Wire Wire Line
-	3500 1050 3750 1050
-Wire Wire Line
-	4050 6650 4050 6800
-Wire Wire Line
-	5700 6800 5750 6800
-Wire Wire Line
-	5750 6800 5750 6650
-Wire Wire Line
-	9100 2200 9200 2200
-Wire Wire Line
-	9200 2200 9300 2200
-Wire Wire Line
-	8700 1900 8700 1800
-Wire Wire Line
-	8700 1800 9000 1800
-Wire Wire Line
-	9000 1800 9000 1600
-Wire Wire Line
-	9000 1600 9150 1600
-Wire Wire Line
-	9150 1250 9500 1250
-Wire Wire Line
-	9150 1250 9150 1600
-Wire Wire Line
-	8750 1350 9250 1350
-Wire Wire Line
-	9250 1350 9250 1600
-Wire Wire Line
-	9250 1600 9400 1600
-Wire Wire Line
-	9400 1600 9400 1800
-Wire Wire Line
-	9400 1800 9700 1800
-Wire Wire Line
-	9700 1800 9700 1900
-Wire Wire Line
-	9250 1350 9500 1350
-Wire Wire Line
-	8700 3900 8700 3800
-Wire Wire Line
-	8700 3800 9000 3800
-Wire Wire Line
-	9000 3800 9000 3700
-Wire Wire Line
-	9000 3700 9100 3700
-Wire Wire Line
-	9100 3700 9100 3600
-Wire Wire Line
-	9100 3600 9150 3600
-Wire Wire Line
-	9150 3600 9150 3250
-Wire Wire Line
-	9150 3250 9500 3250
-Wire Wire Line
-	9250 3350 9250 3600
-Wire Wire Line
-	9250 3600 9300 3600
-Wire Wire Line
-	9300 3600 9300 3700
-Wire Wire Line
-	9300 3700 9400 3700
-Wire Wire Line
-	9400 3700 9400 3800
-Wire Wire Line
-	9400 3800 9700 3800
-Wire Wire Line
-	9700 3800 9700 3900
-Wire Wire Line
-	9250 3350 9500 3350
-Wire Wire Line
-	9100 4200 9200 4200
-Wire Wire Line
-	9200 4200 9300 4200
-Wire Wire Line
-	8750 6000 8750 5900
-Wire Wire Line
-	8750 5900 9050 5900
-Wire Wire Line
-	9050 5900 9050 5800
-Wire Wire Line
-	9050 5800 9150 5800
-Wire Wire Line
-	9150 5800 9150 5700
-Wire Wire Line
-	9150 5700 9200 5700
-Wire Wire Line
-	9200 5700 9200 5350
-Wire Wire Line
-	9200 5350 9500 5350
-Wire Wire Line
-	9300 5450 9300 5700
-Wire Wire Line
-	9300 5700 9350 5700
-Wire Wire Line
-	9350 5700 9350 5800
-Wire Wire Line
-	9350 5800 9450 5800
-Wire Wire Line
-	9450 5800 9450 5900
-Wire Wire Line
-	9450 5900 9750 5900
-Wire Wire Line
-	9750 5900 9750 6000
-Wire Wire Line
-	9300 5450 9500 5450
-Wire Wire Line
-	9150 6300 9250 6300
-Wire Wire Line
-	9250 6300 9350 6300
-Wire Wire Line
-	1950 6700 1850 6700
-Wire Wire Line
-	1850 6700 1850 6750
-Wire Wire Line
-	1950 6600 1450 6600
-Wire Wire Line
-	1850 7500 1850 7450
-Wire Wire Line
-	1450 7500 1450 7450
-Wire Wire Line
-	4700 4600 4300 4600
-Wire Wire Line
-	4300 4600 4300 4850
-Wire Wire Line
-	2650 5400 2450 5400
-Wire Wire Line
-	2650 4950 2450 4950
-Wire Wire Line
-	1550 4100 1550 4250
-Wire Wire Line
-	1750 6050 1750 5600
-Wire Wire Line
-	2300 5150 1750 5150
-Wire Wire Line
-	1750 5150 1750 4650
-Wire Wire Line
-	2300 5600 1750 5600
-Wire Wire Line
-	1750 5600 1750 5150
-Wire Wire Line
-	2300 5200 1550 5200
-Wire Wire Line
-	2300 4750 1550 4750
-Wire Wire Line
-	1550 4750 1550 5200
-Wire Wire Line
-	4700 4300 4300 4300
-Wire Wire Line
-	4300 3300 4700 3300
-Wire Wire Line
-	2650 4450 2450 4450
-Wire Wire Line
-	1550 5200 1550 5650
-Wire Wire Line
-	2650 5850 2450 5850
-Wire Wire Line
-	2300 6050 1750 6050
-Wire Wire Line
-	2300 5650 1550 5650
-Wire Wire Line
-	2300 4650 1750 4650
-Wire Wire Line
-	1750 4650 1750 4150
-Wire Wire Line
-	2300 4250 1550 4250
-Wire Wire Line
-	1550 4250 1550 4750
-Wire Wire Line
-	1550 5650 1550 6050
-Wire Wire Line
-	4300 3300 4300 3400
-Wire Wire Line
-	4300 3400 4700 3400
-Wire Wire Line
-	3950 2500 3950 2400
-Wire Wire Line
-	3950 2400 4050 2400
-Wire Wire Line
-	4450 2400 4700 2400
-Wire Wire Line
-	1850 6950 1850 7100
-Wire Wire Line
-	1450 6600 1450 7100
-Wire Wire Line
-	1450 7100 1500 7100
-Wire Wire Line
-	1450 7100 1450 7250
-Wire Wire Line
-	1800 7100 1850 7100
-Wire Wire Line
-	1850 7100 1850 7250
-Wire Wire Line
-	1800 3550 1900 3550
-Wire Wire Line
-	1900 3550 2000 3550
-Connection ~ 5600 2000
-Connection ~ 5700 5200
-Connection ~ 2600 2350
-Connection ~ 2800 2250
-Connection ~ 1700 2350
-Connection ~ 1800 2250
-Connection ~ 7700 1250
-Connection ~ 7850 1350
-Connection ~ 8600 1250
-Connection ~ 8750 1350
-Connection ~ 9350 750 
-Connection ~ 7700 3250
-Connection ~ 7850 3350
-Connection ~ 8600 3250
-Connection ~ 8750 3350
-Connection ~ 7700 5350
-Connection ~ 7850 5450
-Connection ~ 8600 5350
-Connection ~ 8750 5450
-Connection ~ 9350 4850
-Connection ~ 3750 1050
-Connection ~ 4650 1050
-Connection ~ 3150 1050
-Connection ~ 3500 1050
-Connection ~ 9350 2750
-Connection ~ 9200 2200
-Connection ~ 9150 1250
-Connection ~ 9250 1350
-Connection ~ 9150 3250
-Connection ~ 9250 3350
-Connection ~ 9200 4200
-Connection ~ 9200 5350
-Connection ~ 9300 5450
-Connection ~ 9250 6300
-Connection ~ 1750 5150
-Connection ~ 1750 5600
-Connection ~ 1550 5200
-Connection ~ 1550 4750
-Connection ~ 1750 4650
-Connection ~ 1550 4250
-Connection ~ 1550 5650
-Connection ~ 1750 6050
-Connection ~ 4300 3400
-Connection ~ 1450 7100
-Connection ~ 1850 7100
-Connection ~ 1900 3550
-NoConn ~ 5700 7100
-NoConn ~ 4700 6900
-NoConn ~ 4700 4100
 $Comp
-L Device:R_Small_US R3
-U 1 1 605E5806
-P 4500 7000
-F 0 "R3" H 4568 7046 50  0000 L CNN
-F 1 "15kΩ" H 4568 6955 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 4500 7000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 4500 7000 50  0001 C CNN
-F 4 "0.16" H 4568 7146 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-0715KL" H 4568 7146 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 4568 7146 50  0001 C CNN "Vendor"
-	1    4500 7000
-	-1   0    0    1   
+L Jumper:SolderJumper_3_Bridged12 JP4
+U 1 1 608B6707
+P 2300 5850
+F 0 "JP4" V 2346 5918 50  0000 L CNN
+F 1 "GANGED_SEL" V 2255 5918 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2300 5850 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 2300 5850 50  0001 C CNN
+F 4 "0.1" H 2346 6018 50  0001 C CNN "Price"
+F 5 "649-1012937890301BLF" H 2346 6018 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 2346 6018 50  0001 C CNN "Vendor"
+	1    2300 5850
+	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VBUS #PWR0101
-U 1 1 605E8A16
-P 4500 6700
-F 0 "#PWR0101" H 4500 6550 50  0001 C CNN
-F 1 "VBUS" H 4515 6873 50  0000 C CNN
-F 2 "" H 4500 6700 50  0001 C CNN
-F 3 "" H 4500 6700 50  0001 C CNN
-	1    4500 6700
+L power:GND #PWR016
+U 1 1 608545D3
+P 4300 3400
+F 0 "#PWR016" H 4300 3150 50  0001 C CNN
+F 1 "GND" H 4305 3227 50  0001 C CNN
+F 2 "" H 4300 3400 50  0001 C CNN
+F 3 "" H 4300 3400 50  0001 C CNN
+	1    4300 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4500 6700 4500 6900
-Wire Wire Line
-	4500 7100 4500 7300
-Wire Wire Line
-	4500 7300 4700 7300
-Text Notes 4500 7450 0    50   ~ 0
-Disable\nOUT4
+$Comp
+L power:+3V3 #PWR017
+U 1 1 608519AD
+P 4300 4300
+F 0 "#PWR017" H 4300 4150 50  0001 C CNN
+F 1 "+3V3" H 4315 4473 50  0000 C CNN
+F 2 "" H 4300 4300 50  0001 C CNN
+F 3 "" H 4300 4300 50  0001 C CNN
+	1    4300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 607EC4C7
+P 2300 4450
+F 0 "JP1" V 2346 4517 50  0000 L CNN
+F 1 "NP3_SEL" V 2255 4517 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2300 4450 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 2300 4450 50  0001 C CNN
+F 4 "0.1" H 2346 4617 50  0001 C CNN "Price"
+F 5 "649-1012937890301BLF" H 2346 4617 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 2346 4617 50  0001 C CNN "Vendor"
+	1    2300 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 607BC6A0
+P 1750 6050
+F 0 "#PWR05" H 1750 5800 50  0001 C CNN
+F 1 "GND" H 1755 5877 50  0001 C CNN
+F 2 "" H 1750 6050 50  0001 C CNN
+F 3 "" H 1750 6050 50  0001 C CNN
+	1    1750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR03
+U 1 1 607B45A5
+P 1550 4100
+F 0 "#PWR03" H 1550 3950 50  0001 C CNN
+F 1 "+3V3" H 1565 4273 50  0000 C CNN
+F 2 "" H 1550 4100 50  0001 C CNN
+F 3 "" H 1550 4100 50  0001 C CNN
+	1    1550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP2
+U 1 1 607A501B
+P 2300 4950
+F 0 "JP2" V 2346 5018 50  0000 L CNN
+F 1 "NPINT0_SEL" V 2255 5018 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2300 4950 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 2300 4950 50  0001 C CNN
+F 4 "0.1" H 2346 5118 50  0001 C CNN "Price"
+F 5 "649-1012937890301BLF" H 2346 5118 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 2346 5118 50  0001 C CNN "Vendor"
+	1    2300 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP3
+U 1 1 607A2993
+P 2300 5400
+F 0 "JP3" V 2346 5468 50  0000 L CNN
+F 1 "NPINT1_SEL" V 2255 5468 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2300 5400 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 2300 5400 50  0001 C CNN
+F 4 "0.1" H 2346 5568 50  0001 C CNN "Price"
+F 5 "649-1012937890301BLF" H 2346 5568 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 2346 5568 50  0001 C CNN "Vendor"
+	1    2300 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 607949C9
+P 4300 4850
+F 0 "#PWR018" H 4300 4600 50  0001 C CNN
+F 1 "GND" H 4305 4677 50  0001 C CNN
+F 2 "" H 4300 4850 50  0001 C CNN
+F 3 "" H 4300 4850 50  0001 C CNN
+	1    4300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 6078B604
+P 1450 7500
+F 0 "#PWR02" H 1450 7250 50  0001 C CNN
+F 1 "GND" H 1455 7327 50  0001 C CNN
+F 2 "" H 1450 7500 50  0001 C CNN
+F 3 "" H 1450 7500 50  0001 C CNN
+	1    1450 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 60784178
+P 1850 7500
+F 0 "#PWR06" H 1850 7250 50  0001 C CNN
+F 1 "GND" H 1855 7327 50  0001 C CNN
+F 2 "" H 1850 7500 50  0001 C CNN
+F 3 "" H 1850 7500 50  0001 C CNN
+	1    1850 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 60778987
+P 1450 7350
+F 0 "C1" H 1542 7396 50  0000 L CNN
+F 1 "22pF" H 1542 7305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1450 7350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 1450 7350 50  0001 C CNN
+F 4 "0.61" H 1542 7496 50  0001 C CNN "Price"
+F 5 "710-885012009007" H 1542 7496 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 1542 7496 50  0001 C CNN "Vendor"
+	1    1450 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 6077798D
+P 1850 7350
+F 0 "C2" H 1942 7396 50  0000 L CNN
+F 1 "22pF" H 1942 7305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1850 7350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 1850 7350 50  0001 C CNN
+F 4 "0.61" H 1942 7496 50  0001 C CNN "Price"
+F 5 "710-885012009007" H 1942 7496 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 1942 7496 50  0001 C CNN "Vendor"
+	1    1850 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 60763844
+P 1850 6850
+F 0 "R1" H 1918 6896 50  0000 L CNN
+F 1 "27Ω" H 1918 6805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 1850 6850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 1850 6850 50  0001 C CNN
+F 4 "0.14" H 1918 6996 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0727RL" H 1918 6996 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 1918 6996 50  0001 C CNN "Vendor"
+	1    1850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y1
+U 1 1 60761B41
+P 1650 7100
+F 0 "Y1" H 1650 7368 50  0000 C CNN
+F 1 "6MHz" H 1650 7277 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_HC49-SD" H 1650 7100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/xt49m-1763016.pdf" H 1650 7100 50  0001 C CNN
+F 4 "0.95" H 1650 7100 50  0001 C CNN "Price"
+F 5 "73-XT49M600-20" H 1650 7100 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 1650 7100 50  0001 C CNN "Vendor"
+	1    1650 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR043
+U 1 1 60705D3C
+P 9250 6300
+F 0 "#PWR043" H 9250 6050 50  0001 C CNN
+F 1 "GND" H 9255 6127 50  0001 C CNN
+F 2 "" H 9250 6300 50  0001 C CNN
+F 3 "" H 9250 6300 50  0001 C CNN
+	1    9250 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR042
+U 1 1 606D17C5
+P 9200 4200
+F 0 "#PWR042" H 9200 3950 50  0001 C CNN
+F 1 "GND" H 9205 4027 50  0001 C CNN
+F 2 "" H 9200 4200 50  0001 C CNN
+F 3 "" H 9200 4200 50  0001 C CNN
+	1    9200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SN75240 U5
+U 2 1 606BEBB3
+P 9250 6000
+F 0 "U5" H 9250 6225 50  0000 C CNN
+F 1 "SN75240" H 9250 6134 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 9400 5850 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 9450 5850 50  0001 C CNN
+F 4 "1.31" H 9250 6325 50  0001 C CNN "Price"
+F 5 "595-SN75240PWR" H 9250 6325 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 9250 6325 50  0001 C CNN "Vendor"
+	2    9250 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR041
+U 1 1 606A7302
+P 9200 2200
+F 0 "#PWR041" H 9200 1950 50  0001 C CNN
+F 1 "GND" H 9205 2027 50  0001 C CNN
+F 2 "" H 9200 2200 50  0001 C CNN
+F 3 "" H 9200 2200 50  0001 C CNN
+	1    9200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SN75240 U4
+U 2 1 6067DC66
+P 9200 1900
+F 0 "U4" H 9200 2125 50  0000 C CNN
+F 1 "SN75240" H 9200 2034 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 9350 1750 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 9400 1750 50  0001 C CNN
+F 4 "1.31" H 9200 2225 50  0001 C CNN "Price"
+F 5 "595-SN75240PWR" H 9200 2225 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 9200 2225 50  0001 C CNN "Vendor"
+	2    9200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SN75240 U5
+U 1 1 6061C4E6
+P 9200 3900
+F 0 "U5" H 9200 4125 50  0000 C CNN
+F 1 "SN75240" H 9200 4034 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 9350 3750 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 9400 3750 50  0001 C CNN
+F 4 "1.31" H 9200 4225 50  0001 C CNN "Price"
+F 5 "595-SN75240PWR" H 9200 4225 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 9200 4225 50  0001 C CNN "Vendor"
+	1    9200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 606169E8
+P 5200 7600
+F 0 "#PWR022" H 5200 7350 50  0001 C CNN
+F 1 "GND" H 5205 7427 50  0001 C CNN
+F 2 "" H 5200 7600 50  0001 C CNN
+F 3 "" H 5200 7600 50  0001 C CNN
+	1    5200 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 6061613E
+P 3550 7600
+F 0 "#PWR013" H 3550 7350 50  0001 C CNN
+F 1 "GND" H 3555 7427 50  0001 C CNN
+F 2 "" H 3550 7600 50  0001 C CNN
+F 3 "" H 3550 7600 50  0001 C CNN
+	1    3550 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR025
+U 1 1 605FFA11
+P 5750 6650
+F 0 "#PWR025" H 5750 6500 50  0001 C CNN
+F 1 "VBUS" H 5765 6823 50  0000 C CNN
+F 2 "" H 5750 6650 50  0001 C CNN
+F 3 "" H 5750 6650 50  0001 C CNN
+	1    5750 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR019
+U 1 1 605F85B9
+P 4050 6650
+F 0 "#PWR019" H 4050 6500 50  0001 C CNN
+F 1 "VBUS" H 4065 6823 50  0000 C CNN
+F 2 "" H 4050 6650 50  0001 C CNN
+F 3 "" H 4050 6650 50  0001 C CNN
+	1    4050 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Management:TPS2044D U3
+U 2 1 605F413F
+P 5200 7000
+F 0 "U3" H 5200 7467 50  0000 C CNN
+F 1 "TPS2044D" H 5200 7376 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5200 7500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps2044.pdf" H 5150 7300 50  0001 C CNN
+F 4 "2.73" H 5200 7567 50  0001 C CNN "Price"
+F 5 "595-TPS2044BDR" H 5200 7567 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 5200 7567 50  0001 C CNN "Vendor"
+	2    5200 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Management:TPS2044D U3
+U 1 1 605F1591
+P 3550 7000
+F 0 "U3" H 3550 7467 50  0000 C CNN
+F 1 "TPS2044D" H 3550 7376 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3550 7500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps2044.pdf" H 3500 7300 50  0001 C CNN
+F 4 "2.73" H 3550 7000 50  0001 C CNN "Price"
+F 5 "595-TPS2044BDR" H 3550 7000 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 3550 7000 50  0001 C CNN "Vendor"
+	1    3550 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 605E6475
+P 5700 5250
+F 0 "#PWR024" H 5700 5000 50  0001 C CNN
+F 1 "GND" H 5705 5077 50  0001 C CNN
+F 2 "" H 5700 5250 50  0001 C CNN
+F 3 "" H 5700 5250 50  0001 C CNN
+	1    5700 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 605E432E
+P 3150 1250
+F 0 "#PWR011" H 3150 1000 50  0001 C CNN
+F 1 "GND" H 3155 1077 50  0001 C CNN
+F 2 "" H 3150 1250 50  0001 C CNN
+F 3 "" H 3150 1250 50  0001 C CNN
+	1    3150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 605E3C84
+P 3500 1250
+F 0 "#PWR012" H 3500 1000 50  0001 C CNN
+F 1 "GND" H 3505 1077 50  0001 C CNN
+F 2 "" H 3500 1250 50  0001 C CNN
+F 3 "" H 3500 1250 50  0001 C CNN
+	1    3500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 605E350F
+P 4650 1250
+F 0 "#PWR020" H 4650 1000 50  0001 C CNN
+F 1 "GND" H 4655 1077 50  0001 C CNN
+F 2 "" H 4650 1250 50  0001 C CNN
+F 3 "" H 4650 1250 50  0001 C CNN
+	1    4650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 605E2A05
+P 3500 1150
+F 0 "C4" H 3592 1196 50  0000 L CNN
+F 1 "0.1μF" H 3592 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3500 1150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" H 3500 1150 50  0001 C CNN
+F 4 "0.46" H 3592 1296 50  0001 C CNN "Price"
+F 5 "581-12105C104JAT2A" H 3592 1296 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 3592 1296 50  0001 C CNN "Vendor"
+	1    3500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 605E0A15
+P 4650 1150
+F 0 "C5" H 4742 1196 50  0000 L CNN
+F 1 "4.7μF" H 4742 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4650 1150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1008_X8L_150C_SMD-1101219.pdf" H 4650 1150 50  0001 C CNN
+F 4 "0.93" H 4742 1296 50  0001 C CNN "Price"
+F 5 "80-C1210C475J3N" H 4742 1296 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 4742 1296 50  0001 C CNN "Vendor"
+	1    4650 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 605DE4E0
+P 3150 1150
+F 0 "C3" H 3242 1196 50  0000 L CNN
+F 1 "4.7μF" H 3242 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3150 1150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1008_X8L_150C_SMD-1101219.pdf" H 3150 1150 50  0001 C CNN
+F 4 "0.93" H 3242 1296 50  0001 C CNN "Price"
+F 5 "80-C1210C475J3N" H 3242 1296 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 3242 1296 50  0001 C CNN "Vendor"
+	1    3150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR021
+U 1 1 605DCECA
+P 4850 1050
+F 0 "#PWR021" H 4850 900 50  0001 C CNN
+F 1 "+3V3" H 4865 1223 50  0000 C CNN
+F 2 "" H 4850 1050 50  0001 C CNN
+F 3 "" H 4850 1050 50  0001 C CNN
+	1    4850 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 605DA1D4
+P 4100 1450
+F 0 "#PWR015" H 4100 1200 50  0001 C CNN
+F 1 "GND" H 4105 1277 50  0001 C CNN
+F 2 "" H 4100 1450 50  0001 C CNN
+F 3 "" H 4100 1450 50  0001 C CNN
+	1    4100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR010
+U 1 1 605D1EC3
+P 3000 1050
+F 0 "#PWR010" H 3000 900 50  0001 C CNN
+F 1 "VBUS" H 3015 1223 50  0000 C CNN
+F 2 "" H 3000 1050 50  0001 C CNN
+F 3 "" H 3000 1050 50  0001 C CNN
+	1    3000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:TPS76333 U2
+U 1 1 605D132D
+P 4100 1150
+F 0 "U2" H 4100 1492 50  0000 C CNN
+F 1 "TPS76333" H 4100 1401 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4100 1475 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tps763.pdf" H 4100 1150 50  0001 C CNN
+F 4 "1" H 4100 1150 50  0001 C CNN "Price"
+F 5 "595-PS76333QDBVRG4Q1" H 4100 1150 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 4100 1150 50  0001 C CNN "Vendor"
+	1    4100 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR040
+U 1 1 605C83CD
+P 9000 5150
+F 0 "#PWR040" H 9000 4900 50  0001 C CNN
+F 1 "GND" H 9005 4977 50  0001 C CNN
+F 2 "" H 9000 5150 50  0001 C CNN
+F 3 "" H 9000 5150 50  0001 C CNN
+	1    9000 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR046
+U 1 1 605C83BA
+P 9800 5750
+F 0 "#PWR046" H 9800 5500 50  0001 C CNN
+F 1 "GND" H 9805 5577 50  0001 C CNN
+F 2 "" H 9800 5750 50  0001 C CNN
+F 3 "" H 9800 5750 50  0001 C CNN
+	1    9800 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A J4
+U 1 1 605C83B2
+P 9800 5350
+F 0 "J4" H 9570 5339 50  0000 R CNN
+F 1 "USB_A" H 9570 5248 50  0000 R CNN
+F 2 "Wurth:62900416021" H 9950 5300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/62900416021-1718169.pdf" H 9950 5300 50  0001 C CNN
+F 4 "2.36" H 9570 5439 50  0001 C CNN "Price"
+F 5 "710-62900416021" H 9570 5439 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 9570 5439 50  0001 C CNN "Vendor"
+	1    9800 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR037
+U 1 1 605C83AC
+P 8750 5700
+F 0 "#PWR037" H 8750 5450 50  0001 C CNN
+F 1 "GND" H 8755 5527 50  0001 C CNN
+F 2 "" H 8750 5700 50  0001 C CNN
+F 3 "" H 8750 5700 50  0001 C CNN
+	1    8750 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 605C83A6
+P 8600 5700
+F 0 "#PWR034" H 8600 5450 50  0001 C CNN
+F 1 "GND" H 8605 5527 50  0001 C CNN
+F 2 "" H 8600 5700 50  0001 C CNN
+F 3 "" H 8600 5700 50  0001 C CNN
+	1    8600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R43
+U 1 1 605C8396
+P 8600 5600
+F 0 "R43" H 8668 5646 50  0000 L CNN
+F 1 "15kΩ" H 8668 5555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8600 5600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8600 5600 50  0001 C CNN
+F 4 "0.16" H 8668 5746 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0715KL" H 8668 5746 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 8668 5746 50  0001 C CNN "Vendor"
+	1    8600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 605C8390
+P 7850 5700
+F 0 "#PWR031" H 7850 5450 50  0001 C CNN
+F 1 "GND" H 7855 5527 50  0001 C CNN
+F 2 "" H 7850 5700 50  0001 C CNN
+F 3 "" H 7850 5700 50  0001 C CNN
+	1    7850 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 605C838A
+P 7700 5700
+F 0 "#PWR028" H 7700 5450 50  0001 C CNN
+F 1 "GND" H 7705 5527 50  0001 C CNN
+F 2 "" H 7700 5700 50  0001 C CNN
+F 3 "" H 7700 5700 50  0001 C CNN
+	1    7700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C42
+U 1 1 605C837E
+P 7850 5600
+F 0 "C42" H 7942 5646 50  0000 L CNN
+F 1 "22pF" H 7942 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7850 5600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 7850 5600 50  0001 C CNN
+F 4 "0.61" H 7942 5746 50  0001 C CNN "Price"
+F 5 "710-885012009007" H 7942 5746 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 7942 5746 50  0001 C CNN "Vendor"
+	1    7850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C41
+U 1 1 605C8378
+P 7700 5600
+F 0 "C41" H 7609 5646 50  0000 R CNN
+F 1 "22pF" H 7609 5555 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7700 5600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 7700 5600 50  0001 C CNN
+F 4 "0.61" H 7609 5746 50  0001 C CNN "Price"
+F 5 "710-885012009007" H 7609 5746 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 7609 5746 50  0001 C CNN "Vendor"
+	1    7700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R42
+U 1 1 605C8371
+P 8300 5450
+F 0 "R42" V 8187 5450 50  0000 C CNN
+F 1 "27Ω" V 8096 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8300 5450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8300 5450 50  0001 C CNN
+F 4 "0.14" H 8187 5550 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0727RL" H 8187 5550 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 8187 5550 50  0001 C CNN "Vendor"
+	1    8300 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R41
+U 1 1 605C836A
+P 8300 5350
+F 0 "R41" V 8505 5350 50  0000 C CNN
+F 1 "27Ω" V 8414 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8300 5350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8300 5350 50  0001 C CNN
+F 4 "0.14" H 8505 5450 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0727RL" H 8505 5450 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 8505 5450 50  0001 C CNN "Vendor"
+	1    8300 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR039
+U 1 1 605B7CF4
+P 9000 3050
+F 0 "#PWR039" H 9000 2800 50  0001 C CNN
+F 1 "GND" H 9005 2877 50  0001 C CNN
+F 2 "" H 9000 3050 50  0001 C CNN
+F 3 "" H 9000 3050 50  0001 C CNN
+	1    9000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 605B7CE1
+P 9800 3650
+F 0 "#PWR045" H 9800 3400 50  0001 C CNN
+F 1 "GND" H 9805 3477 50  0001 C CNN
+F 2 "" H 9800 3650 50  0001 C CNN
+F 3 "" H 9800 3650 50  0001 C CNN
+	1    9800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A J3
+U 1 1 605B7CD9
+P 9800 3250
+F 0 "J3" H 9570 3239 50  0000 R CNN
+F 1 "USB_A" H 9570 3148 50  0000 R CNN
+F 2 "Wurth:62900416021" H 9950 3200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/62900416021-1718169.pdf" H 9950 3200 50  0001 C CNN
+F 4 "2.36" H 9570 3339 50  0001 C CNN "Price"
+F 5 "710-62900416021" H 9570 3339 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 9570 3339 50  0001 C CNN "Vendor"
+	1    9800 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR036
+U 1 1 605B7CD3
+P 8750 3600
+F 0 "#PWR036" H 8750 3350 50  0001 C CNN
+F 1 "GND" H 8755 3427 50  0001 C CNN
+F 2 "" H 8750 3600 50  0001 C CNN
+F 3 "" H 8750 3600 50  0001 C CNN
+	1    8750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 605B7CCD
+P 8600 3600
+F 0 "#PWR033" H 8600 3350 50  0001 C CNN
+F 1 "GND" H 8605 3427 50  0001 C CNN
+F 2 "" H 8600 3600 50  0001 C CNN
+F 3 "" H 8600 3600 50  0001 C CNN
+	1    8600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R34
+U 1 1 605B7CC3
+P 8750 3500
+F 0 "R34" H 8818 3546 50  0000 L CNN
+F 1 "15kΩ" H 8818 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8750 3500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8750 3500 50  0001 C CNN
+F 4 "0.16" H 8818 3646 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0715KL" H 8818 3646 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 8818 3646 50  0001 C CNN "Vendor"
+	1    8750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R33
+U 1 1 605B7CBD
+P 8600 3500
+F 0 "R33" H 8668 3546 50  0000 L CNN
+F 1 "15kΩ" H 8668 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8600 3500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8600 3500 50  0001 C CNN
+F 4 "0.16" H 8668 3646 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0715KL" H 8668 3646 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 8668 3646 50  0001 C CNN "Vendor"
+	1    8600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 605B7CB7
+P 7850 3600
+F 0 "#PWR030" H 7850 3350 50  0001 C CNN
+F 1 "GND" H 7855 3427 50  0001 C CNN
+F 2 "" H 7850 3600 50  0001 C CNN
+F 3 "" H 7850 3600 50  0001 C CNN
+	1    7850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 605B7CB1
+P 7700 3600
+F 0 "#PWR027" H 7700 3350 50  0001 C CNN
+F 1 "GND" H 7705 3427 50  0001 C CNN
+F 2 "" H 7700 3600 50  0001 C CNN
+F 3 "" H 7700 3600 50  0001 C CNN
+	1    7700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C32
+U 1 1 605B7CA5
+P 7850 3500
+F 0 "C32" H 7942 3546 50  0000 L CNN
+F 1 "22pF" H 7942 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7850 3500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 7850 3500 50  0001 C CNN
+F 4 "0.61" H 7942 3646 50  0001 C CNN "Price"
+F 5 "710-885012009007" H 7942 3646 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 7942 3646 50  0001 C CNN "Vendor"
+	1    7850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C31
+U 1 1 605B7C9F
+P 7700 3500
+F 0 "C31" H 7609 3546 50  0000 R CNN
+F 1 "22pF" H 7609 3455 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7700 3500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 7700 3500 50  0001 C CNN
+F 4 "0.61" H 7609 3646 50  0001 C CNN "Price"
+F 5 "710-885012009007" H 7609 3646 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 7609 3646 50  0001 C CNN "Vendor"
+	1    7700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R32
+U 1 1 605B7C98
+P 8300 3350
+F 0 "R32" V 8187 3350 50  0000 C CNN
+F 1 "27Ω" V 8096 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8300 3350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8300 3350 50  0001 C CNN
+F 4 "0.14" H 8187 3450 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0727RL" H 8187 3450 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 8187 3450 50  0001 C CNN "Vendor"
+	1    8300 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R31
+U 1 1 605B7C91
+P 8300 3250
+F 0 "R31" V 8505 3250 50  0000 C CNN
+F 1 "27Ω" V 8414 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8300 3250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8300 3250 50  0001 C CNN
+F 4 "0.14" H 8505 3350 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0727RL" H 8505 3350 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 8505 3350 50  0001 C CNN "Vendor"
+	1    8300 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR038
+U 1 1 605A9310
+P 9000 1050
+F 0 "#PWR038" H 9000 800 50  0001 C CNN
+F 1 "GND" H 9005 877 50  0001 C CNN
+F 2 "" H 9000 1050 50  0001 C CNN
+F 3 "" H 9000 1050 50  0001 C CNN
+	1    9000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR044
+U 1 1 6059FE25
+P 9800 1650
+F 0 "#PWR044" H 9800 1400 50  0001 C CNN
+F 1 "GND" H 9805 1477 50  0001 C CNN
+F 2 "" H 9800 1650 50  0001 C CNN
+F 3 "" H 9800 1650 50  0001 C CNN
+	1    9800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A J2
+U 1 1 6059A682
+P 9800 1250
+F 0 "J2" H 9570 1239 50  0000 R CNN
+F 1 "USB_A" H 9570 1148 50  0000 R CNN
+F 2 "Wurth:62900416021" H 9950 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/62900416021-1718169.pdf" H 9950 1200 50  0001 C CNN
+F 4 "2.36" H 9800 1250 50  0001 C CNN "Price"
+F 5 "710-62900416021" H 9800 1250 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 9800 1250 50  0001 C CNN "Vendor"
+	1    9800 1250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 605954F9
+P 8750 1600
+F 0 "#PWR035" H 8750 1350 50  0001 C CNN
+F 1 "GND" H 8755 1427 50  0001 C CNN
+F 2 "" H 8750 1600 50  0001 C CNN
+F 3 "" H 8750 1600 50  0001 C CNN
+	1    8750 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 60595077
+P 8600 1600
+F 0 "#PWR032" H 8600 1350 50  0001 C CNN
+F 1 "GND" H 8605 1427 50  0001 C CNN
+F 2 "" H 8600 1600 50  0001 C CNN
+F 3 "" H 8600 1600 50  0001 C CNN
+	1    8600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R24
+U 1 1 60593662
+P 8750 1500
+F 0 "R24" H 8818 1546 50  0000 L CNN
+F 1 "15kΩ" H 8818 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8750 1500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8750 1500 50  0001 C CNN
+F 4 "0.16" H 8818 1646 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0715KL" H 8818 1646 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 8818 1646 50  0001 C CNN "Vendor"
+	1    8750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R23
+U 1 1 6059294D
+P 8600 1500
+F 0 "R23" H 8668 1546 50  0000 L CNN
+F 1 "15kΩ" H 8668 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8600 1500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8600 1500 50  0001 C CNN
+F 4 "0.16" H 8668 1646 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0715KL" H 8668 1646 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 8668 1646 50  0001 C CNN "Vendor"
+	1    8600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 60591CDB
+P 7850 1600
+F 0 "#PWR029" H 7850 1350 50  0001 C CNN
+F 1 "GND" H 7855 1427 50  0001 C CNN
+F 2 "" H 7850 1600 50  0001 C CNN
+F 3 "" H 7850 1600 50  0001 C CNN
+	1    7850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 6059087F
+P 7700 1600
+F 0 "#PWR026" H 7700 1350 50  0001 C CNN
+F 1 "GND" H 7705 1427 50  0001 C CNN
+F 2 "" H 7700 1600 50  0001 C CNN
+F 3 "" H 7700 1600 50  0001 C CNN
+	1    7700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C22
+U 1 1 6058E890
+P 7850 1500
+F 0 "C22" H 7942 1546 50  0000 L CNN
+F 1 "22pF" H 7942 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7850 1500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 7850 1500 50  0001 C CNN
+F 4 "0.61" H 7942 1646 50  0001 C CNN "Price"
+F 5 "710-885012009007" H 7942 1646 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 7942 1646 50  0001 C CNN "Vendor"
+	1    7850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 6058CD4C
+P 7700 1500
+F 0 "C21" H 7609 1546 50  0000 R CNN
+F 1 "22pF" H 7609 1455 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7700 1500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 7700 1500 50  0001 C CNN
+F 4 "0.61" H 7609 1646 50  0001 C CNN "Price"
+F 5 "710-885012009007" H 7609 1646 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 7609 1646 50  0001 C CNN "Vendor"
+	1    7700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R22
+U 1 1 6058C1E0
+P 8300 1350
+F 0 "R22" V 8187 1350 50  0000 C CNN
+F 1 "27Ω" V 8096 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8300 1350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8300 1350 50  0001 C CNN
+F 4 "0.14" H 8187 1450 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0727RL" H 8187 1450 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 8187 1450 50  0001 C CNN "Vendor"
+	1    8300 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R21
+U 1 1 6058AD73
+P 8300 1250
+F 0 "R21" V 8505 1250 50  0000 C CNN
+F 1 "27Ω" V 8414 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8300 1250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 8300 1250 50  0001 C CNN
+F 4 "0.14" H 8505 1350 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0727RL" H 8505 1350 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 8505 1350 50  0001 C CNN "Vendor"
+	1    8300 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 6057E46D
+P 4450 2800
+F 0 "R2" H 4383 2846 50  0000 R CNN
+F 1 "1.5kΩ" H 4383 2755 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4450 2800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 4450 2800 50  0001 C CNN
+F 4 "0.14" H 4383 2946 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-071K5L" H 4383 2946 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 4383 2946 50  0001 C CNN "Vendor"
+	1    4450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR04
+U 1 1 6057C4C7
+P 1600 1700
+F 0 "#PWR04" H 1600 1550 50  0001 C CNN
+F 1 "VBUS" H 1615 1873 50  0000 C CNN
+F 2 "" H 1600 1700 50  0001 C CNN
+F 3 "" H 1600 1700 50  0001 C CNN
+	1    1600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 6057B447
+P 1900 3550
+F 0 "#PWR07" H 1900 3300 50  0001 C CNN
+F 1 "GND" H 1905 3377 50  0001 C CNN
+F 2 "" H 1900 3550 50  0001 C CNN
+F 3 "" H 1900 3550 50  0001 C CNN
+	1    1900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SN75240 U4
+U 1 1 60579044
+P 1900 3250
+F 0 "U4" H 1900 3475 50  0000 C CNN
+F 1 "SN75240" H 1900 3384 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 2050 3100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 2100 3100 50  0001 C CNN
+F 4 "1.31" H 1900 3250 50  0001 C CNN "Price"
+F 5 "595-SN75240PWR" H 1900 3250 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 1900 3250 50  0001 C CNN "Vendor"
+	1    1900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 60577590
+P 2800 2700
+F 0 "#PWR09" H 2800 2450 50  0001 C CNN
+F 1 "GND" H 2805 2527 50  0001 C CNN
+F 2 "" H 2800 2700 50  0001 C CNN
+F 3 "" H 2800 2700 50  0001 C CNN
+	1    2800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 60576790
+P 2600 2700
+F 0 "#PWR08" H 2600 2450 50  0001 C CNN
+F 1 "GND" H 2605 2527 50  0001 C CNN
+F 2 "" H 2600 2700 50  0001 C CNN
+F 3 "" H 2600 2700 50  0001 C CNN
+	1    2600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 60572B27
+P 2800 2550
+F 0 "C10" H 2892 2596 50  0000 L CNN
+F 1 "22pF" H 2892 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2800 2550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 2800 2550 50  0001 C CNN
+F 4 "0.61" H 2892 2696 50  0001 C CNN "Price"
+F 5 "710-885012009007" H 2892 2696 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 2892 2696 50  0001 C CNN "Vendor"
+	1    2800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 60571C1D
+P 2600 2550
+F 0 "C11" H 2692 2596 50  0000 L CNN
+F 1 "22pF" H 2692 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2600 2550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 2600 2550 50  0001 C CNN
+F 4 "0.61" H 2692 2696 50  0001 C CNN "Price"
+F 5 "710-885012009007" H 2692 2696 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 2692 2696 50  0001 C CNN "Vendor"
+	1    2600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R11
+U 1 1 60570D82
+P 2300 2350
+F 0 "R11" V 2187 2350 50  0000 C CNN
+F 1 "27Ω" V 2096 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2300 2350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 2300 2350 50  0001 C CNN
+F 4 "0.14" H 2187 2450 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0727RL" H 2187 2450 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 2187 2450 50  0001 C CNN "Vendor"
+	1    2300 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R10
+U 1 1 6057025C
+P 2300 2250
+F 0 "R10" V 2505 2250 50  0000 C CNN
+F 1 "27Ω" V 2414 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2300 2250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 2300 2250 50  0001 C CNN
+F 4 "0.14" H 2505 2350 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0727RL" H 2505 2350 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 2505 2350 50  0001 C CNN "Vendor"
+	1    2300 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 6056C3E4
+P 1300 2250
+F 0 "J1" H 1357 2717 50  0000 C CNN
+F 1 "USB_B_Micro" H 1357 2626 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1450 2200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf" H 1450 2200 50  0001 C CNN
+F 4 "0.95" H 1300 2250 50  0001 C CNN "Price"
+F 5 "538-47346-0001" H 1300 2250 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 1300 2250 50  0001 C CNN "Vendor"
+	1    1300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 6056AAA5
+P 1300 2700
+F 0 "#PWR01" H 1300 2450 50  0001 C CNN
+F 1 "GND" H 1305 2527 50  0001 C CNN
+F 2 "" H 1300 2700 50  0001 C CNN
+F 3 "" H 1300 2700 50  0001 C CNN
+	1    1300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR023
+U 1 1 605699FC
+P 5250 1750
+F 0 "#PWR023" H 5250 1600 50  0001 C CNN
+F 1 "+3V3" H 5265 1923 50  0000 C CNN
+F 2 "" H 5250 1750 50  0001 C CNN
+F 3 "" H 5250 1750 50  0001 C CNN
+	1    5250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_USB:TUSB2036 U1
+U 1 1 60568111
+P 5700 3600
+F 0 "U1" H 5700 5381 50  0000 C CNN
+F 1 "TUSB2036" H 5700 5290 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 6750 2100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tusb2036.pdf" H 5700 3600 50  0001 C CNN
+F 4 "3.4" H 5700 3600 50  0001 C CNN "Price"
+F 5 "595-TUSB2036VFR" H 5700 3600 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 5700 3600 50  0001 C CNN "Vendor"
+	1    5700 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
