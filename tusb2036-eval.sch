@@ -6,14 +6,13 @@ encoding utf-8
 Sheet 1 1
 Title "TUSB2036 Evaluation Board"
 Date "2021-04-14"
-Rev "3"
+Rev "4"
 Comp "Chris Keller"
 Comment1 "Licensed under Creative Commons CC-BY-4.0"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 12700 5350
 Text Notes 4500 7450 0    50   ~ 0
 Disable\nOUT4
 Wire Wire Line
@@ -1724,10 +1723,10 @@ U 1 1 6056C3E4
 P 1300 2250
 F 0 "J1" H 1357 2717 50  0000 C CNN
 F 1 "USB_B_Micro" H 1357 2626 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1450 2200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf" H 1450 2200 50  0001 C CNN
-F 4 "0.95" H 1300 2250 50  0001 C CNN "Price"
-F 5 "538-47346-0001" H 1300 2250 50  0001 C CNN "Vendor Part #"
+F 2 "CUI:UJ2-MIBH-4-SMT" H 1450 2200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/670/uj2_mibh_4_smt-1313358.pdf" H 1450 2200 50  0001 C CNN
+F 4 "0.79" H 1300 2250 50  0001 C CNN "Price"
+F 5 "490-UJ2-MIBH-4-SMT" H 1300 2250 50  0001 C CNN "Vendor Part #"
 F 6 "Mouser" H 1300 2250 50  0001 C CNN "Vendor"
 	1    1300 2250
 	1    0    0    -1  
@@ -1768,4 +1767,20 @@ F 6 "Mouser" H 5700 3600 50  0001 C CNN "Vendor"
 	1    5700 3600
 	1    0    0    -1  
 $EndComp
+Text Label 1700 2250 0    50   ~ 0
+U0+
+Text Label 1700 2350 0    50   ~ 0
+U0-
+Text Label 9400 1250 2    50   ~ 0
+U1+
+Text Label 9400 1350 2    50   ~ 0
+U1-
+Text Label 9400 3250 2    50   ~ 0
+U2+
+Text Label 9400 3350 2    50   ~ 0
+U2-
+Text Label 9400 5350 2    50   ~ 0
+U3+
+Text Label 9400 5450 2    50   ~ 0
+U3-
 $EndSCHEMATC
