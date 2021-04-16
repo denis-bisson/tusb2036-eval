@@ -310,7 +310,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 4850 9000 4850
 Wire Wire Line
-	9350 5150 9350 4850
+	9350 5150 9350 4950
 Wire Wire Line
 	9500 5150 9350 5150
 Wire Wire Line
@@ -342,7 +342,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 2750 9000 2750
 Wire Wire Line
-	9350 3050 9350 2750
+	9350 3050 9350 2950
 Wire Wire Line
 	9500 3050 9350 3050
 Wire Wire Line
@@ -374,7 +374,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 750  9000 750 
 Wire Wire Line
-	9350 1050 9350 750 
+	9350 1050 9350 850 
 Wire Wire Line
 	9500 1050 9350 1050
 Wire Wire Line
@@ -404,7 +404,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 2700 4700 2700
 Wire Wire Line
-	1600 1700 1600 2050
+	1600 1700 1600 1800
 Wire Wire Line
 	1800 2250 2200 2250
 Wire Wire Line
@@ -629,10 +629,10 @@ F 6 "Mouser" H 4250 2735 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint_Flag TP1
+L Connector:TestPoint_Flag TP6
 U 1 1 609425DF
 P 6700 2400
-F 0 "TP1" H 6960 2494 50  0000 L CNN
+F 0 "TP6" H 6960 2494 50  0000 L CNN
 F 1 "SUSPND" H 6960 2403 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6900 2400 50  0001 C CNN
 F 3 "-" H 6900 2400 50  0001 C CNN
@@ -1783,4 +1783,75 @@ Text Label 9400 5350 2    50   ~ 0
 U3+
 Text Label 9400 5450 2    50   ~ 0
 U3-
+$Comp
+L Connector:TestPoint_Flag TP2
+U 1 1 607984F9
+P 1600 1800
+F 0 "TP2" H 1860 1894 50  0000 L CNN
+F 1 "5V" H 1860 1803 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1800 1800 50  0001 C CNN
+F 3 "~" H 1800 1800 50  0001 C CNN
+	1    1600 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 1600 1800
+Wire Wire Line
+	1600 1800 1600 2050
+$Comp
+L Connector:TestPoint_Flag TP1
+U 1 1 60799622
+P 1300 2700
+F 0 "TP1" H 1560 2794 50  0000 L CNN
+F 1 "GND" H 1560 2703 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1500 2700 50  0001 C CNN
+F 3 "~" H 1500 2700 50  0001 C CNN
+	1    1300 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 2700
+$Comp
+L Connector:TestPoint_Flag TP3
+U 1 1 6079A23E
+P 9350 850
+F 0 "TP3" H 9610 944 50  0000 L CNN
+F 1 "5VA" H 9610 853 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 850 50  0001 C CNN
+F 3 "~" H 9550 850 50  0001 C CNN
+	1    9350 850 
+	1    0    0    -1  
+$EndComp
+Connection ~ 9350 850 
+Wire Wire Line
+	9350 850  9350 750 
+$Comp
+L Connector:TestPoint_Flag TP4
+U 1 1 6079ACE3
+P 9350 2850
+F 0 "TP4" H 9610 2944 50  0000 L CNN
+F 1 "5VB" H 9610 2853 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 2850 50  0001 C CNN
+F 3 "~" H 9550 2850 50  0001 C CNN
+	1    9350 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 9350 2950
+Wire Wire Line
+	9350 2950 9350 2850
+Connection ~ 9350 2850
+Wire Wire Line
+	9350 2850 9350 2750
+$Comp
+L Connector:TestPoint_Flag TP5
+U 1 1 6079B705
+P 9350 4950
+F 0 "TP5" H 9610 5044 50  0000 L CNN
+F 1 "5VC" H 9610 4953 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 4950 50  0001 C CNN
+F 3 "~" H 9550 4950 50  0001 C CNN
+	1    9350 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 9350 4950
+Wire Wire Line
+	9350 4950 9350 4850
 $EndSCHEMATC
