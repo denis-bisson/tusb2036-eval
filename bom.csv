@@ -40,7 +40,7 @@ R41,27Ω,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/
 R42,27Ω,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1206_3216Metric
 R43,15kΩ,Mouser,603-RC1210FR-0715KL,0.16,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1206_3216Metric
 R44,15kΩ,Mouser,603-RC1210FR-0715KL,0.16,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1206_3216Metric
-SW1,RESET,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP
+SW1,RESET,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Omron:SW_SPST_Omron_B3FS-100xP
 U1,TUSB2036,Mouser,595-TUSB2036VFR,3.4,http://www.ti.com/lit/ds/symlink/tusb2036.pdf,Package_QFP:LQFP-32_7x7mm_P0.8mm
 U2,TPS76333,Mouser,595-PS76333QDBVRG4Q1,1,http://www.ti.com/lit/ds/symlink/tps763.pdf,Package_TO_SOT_SMD:SOT-23-5
 U3,TPS2044D,Mouser,595-TPS2044BDR,2.73,http://www.ti.com/lit/ds/symlink/tps2044.pdf,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm
