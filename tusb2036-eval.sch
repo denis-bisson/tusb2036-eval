@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "TUSB2036 Evaluation Board"
-Date "2021-04-14"
+Date "2021-04-18"
 Rev "4"
 Comp "Chris Keller"
 Comment1 "Licensed under Creative Commons CC-BY-4.0"
@@ -342,8 +342,6 @@ Wire Wire Line
 Wire Wire Line
 	9350 2750 9000 2750
 Wire Wire Line
-	9350 3050 9350 2950
-Wire Wire Line
 	9500 3050 9350 3050
 Wire Wire Line
 	8750 3350 9250 3350
@@ -620,7 +618,7 @@ U 1 1 6094494B
 P 4250 2400
 F 0 "SW1" H 4250 2635 50  0000 C CNN
 F 1 "RESET" H 4250 2544 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP" H 4250 2400 50  0001 C CNN
+F 2 "Omron:SW_SPST_Omron_B3FS-100xP" H 4250 2400 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf" H 4250 2400 50  0001 C CNN
 F 4 "0.58" H 4250 2735 50  0001 C CNN "Price"
 F 5 "653-B3FS-1002P" H 4250 2735 50  0001 C CNN "Vendor Part #"
@@ -1834,9 +1832,6 @@ F 3 "~" H 9550 2850 50  0001 C CNN
 	1    9350 2850
 	1    0    0    -1  
 $EndComp
-Connection ~ 9350 2950
-Wire Wire Line
-	9350 2950 9350 2850
 Connection ~ 9350 2850
 Wire Wire Line
 	9350 2850 9350 2750
@@ -1854,4 +1849,6 @@ $EndComp
 Connection ~ 9350 4950
 Wire Wire Line
 	9350 4950 9350 4850
+Wire Wire Line
+	9350 2850 9350 3050
 $EndSCHEMATC
