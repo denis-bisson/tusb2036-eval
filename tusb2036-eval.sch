@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "TUSB2036 Evaluation Board"
-Date "2021-04-28"
+Date "2021-05-04"
 Rev "4"
 Comp "Chris Keller"
 Comment1 "Licensed under Creative Commons CC-BY-4.0"
@@ -68,12 +68,6 @@ Wire Wire Line
 	3400 4700 3400 5200
 Wire Wire Line
 	3800 5050 3800 5200
-Wire Wire Line
-	4450 2400 4700 2400
-Wire Wire Line
-	3950 2400 4050 2400
-Wire Wire Line
-	3950 2500 3950 2400
 Wire Wire Line
 	4300 3400 4700 3400
 Wire Wire Line
@@ -458,31 +452,6 @@ F 4 "0.16" H 8818 5746 50  0001 C CNN "Price"
 F 5 "603-RC1210FR-0715KL" H 8818 5746 50  0001 C CNN "Vendor Part #"
 F 6 "Mouser" H 8818 5746 50  0001 C CNN "Vendor"
 	1    8750 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR014
-U 1 1 609459A7
-P 3950 2500
-F 0 "#PWR014" H 3950 2250 50  0001 C CNN
-F 1 "GND" H 3955 2327 50  0001 C CNN
-F 2 "" H 3950 2500 50  0001 C CNN
-F 3 "" H 3950 2500 50  0001 C CNN
-	1    3950 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_SPST SW1
-U 1 1 6094494B
-P 4250 2400
-F 0 "SW1" H 4250 2635 50  0000 C CNN
-F 1 "RESET" H 4250 2544 50  0000 C CNN
-F 2 "Omron:SW_SPST_Omron_B3FS-100xP" H 4250 2400 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf" H 4250 2400 50  0001 C CNN
-F 4 "0.58" H 4250 2735 50  0001 C CNN "Price"
-F 5 "653-B3FS-1002P" H 4250 2735 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 4250 2735 50  0001 C CNN "Vendor"
-	1    4250 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1720,54 +1689,6 @@ Wire Wire Line
 	2600 1550 2700 1550
 Wire Wire Line
 	2700 1550 2700 1650
-$Comp
-L Device:R_US R35
-U 1 1 6090C823
-P 8650 2850
-F 0 "R35" V 8445 2850 50  0000 C CNN
-F 1 "330Ω" V 8536 2850 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 8690 2840 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 8650 2850 50  0001 C CNN
-F 4 "0.10" H 8650 2850 50  0001 C CNN "Price"
-F 5 "Mouser" H 8650 2850 50  0001 C CNN "Vendor"
-F 6 "667-ERJ-8ENF3300V" H 8650 2850 50  0001 C CNN "Vendor Part #"
-	1    8650 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D30
-U 1 1 6090DA88
-P 8250 2850
-F 0 "D30" H 8243 2595 50  0000 C CNN
-F 1 "5VB" H 8243 2686 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 8250 2850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/216/ap3216id-1173252.pdf" H 8250 2850 50  0001 C CNN
-F 4 "0.28" H 8250 2850 50  0001 C CNN "Price"
-F 5 "Mouser" H 8250 2850 50  0001 C CNN "Vendor"
-F 6 "604-AP3216ID" H 8250 2850 50  0001 C CNN "Vendor Part #"
-	1    8250 2850
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	9000 2850 8800 2850
-Connection ~ 9000 2850
-Wire Wire Line
-	8500 2850 8400 2850
-$Comp
-L power:GND #PWR0102
-U 1 1 6092A309
-P 7950 2950
-F 0 "#PWR0102" H 7950 2700 50  0001 C CNN
-F 1 "GND" H 7955 2777 50  0001 C CNN
-F 2 "" H 7950 2950 50  0001 C CNN
-F 3 "" H 7950 2950 50  0001 C CNN
-	1    7950 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 2850 7950 2850
-Wire Wire Line
-	7950 2850 7950 2950
 Wire Wire Line
 	9350 2950 9350 3150
 Wire Wire Line
@@ -1835,53 +1756,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 900  9000 900 
 Connection ~ 9000 900 
-$Comp
-L Device:R_US R45
-U 1 1 6097B7CB
-P 8650 4850
-F 0 "R45" V 8445 4850 50  0000 C CNN
-F 1 "330Ω" V 8536 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 8690 4840 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 8650 4850 50  0001 C CNN
-F 4 "0.10" H 8650 4850 50  0001 C CNN "Price"
-F 5 "Mouser" H 8650 4850 50  0001 C CNN "Vendor"
-F 6 "667-ERJ-8ENF3300V" H 8650 4850 50  0001 C CNN "Vendor Part #"
-	1    8650 4850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D40
-U 1 1 6097B7D4
-P 8250 4850
-F 0 "D40" H 8243 4595 50  0000 C CNN
-F 1 "5VC" H 8243 4686 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 8250 4850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/216/ap3216id-1173252.pdf" H 8250 4850 50  0001 C CNN
-F 4 "0.28" H 8250 4850 50  0001 C CNN "Price"
-F 5 "Mouser" H 8250 4850 50  0001 C CNN "Vendor"
-F 6 "604-AP3216ID" H 8250 4850 50  0001 C CNN "Vendor Part #"
-	1    8250 4850
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	9000 4850 8800 4850
-Wire Wire Line
-	8500 4850 8400 4850
-$Comp
-L power:GND #PWR0104
-U 1 1 6097B7DC
-P 7950 4950
-F 0 "#PWR0104" H 7950 4700 50  0001 C CNN
-F 1 "GND" H 7955 4777 50  0001 C CNN
-F 2 "" H 7950 4950 50  0001 C CNN
-F 3 "" H 7950 4950 50  0001 C CNN
-	1    7950 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 4850 7950 4850
-Wire Wire Line
-	7950 4850 7950 4950
 Wire Wire Line
 	1900 1550 1600 1550
 Connection ~ 1600 1550
@@ -2238,4 +2112,160 @@ Wire Wire Line
 	4300 2900 4700 2900
 Wire Wire Line
 	4300 2700 4350 2700
+Connection ~ 9000 2850
+Wire Wire Line
+	9000 2850 8800 2850
+Wire Wire Line
+	7950 2850 7950 2950
+Wire Wire Line
+	8100 2850 7950 2850
+$Comp
+L power:GND #PWR0102
+U 1 1 6092A309
+P 7950 2950
+F 0 "#PWR0102" H 7950 2700 50  0001 C CNN
+F 1 "GND" H 7955 2777 50  0001 C CNN
+F 2 "" H 7950 2950 50  0001 C CNN
+F 3 "" H 7950 2950 50  0001 C CNN
+	1    7950 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2850 8400 2850
+$Comp
+L Device:LED D30
+U 1 1 6090DA88
+P 8250 2850
+F 0 "D30" H 8243 2595 50  0000 C CNN
+F 1 "5VB" H 8243 2686 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 8250 2850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/216/ap3216id-1173252.pdf" H 8250 2850 50  0001 C CNN
+F 4 "0.28" H 8250 2850 50  0001 C CNN "Price"
+F 5 "Mouser" H 8250 2850 50  0001 C CNN "Vendor"
+F 6 "604-AP3216ID" H 8250 2850 50  0001 C CNN "Vendor Part #"
+	1    8250 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_US R35
+U 1 1 6090C823
+P 8650 2850
+F 0 "R35" V 8445 2850 50  0000 C CNN
+F 1 "330Ω" V 8536 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8690 2840 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 8650 2850 50  0001 C CNN
+F 4 "0.10" H 8650 2850 50  0001 C CNN "Price"
+F 5 "Mouser" H 8650 2850 50  0001 C CNN "Vendor"
+F 6 "667-ERJ-8ENF3300V" H 8650 2850 50  0001 C CNN "Vendor Part #"
+	1    8650 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9000 4850 8800 4850
+Wire Wire Line
+	7950 4850 7950 4950
+Wire Wire Line
+	8100 4850 7950 4850
+$Comp
+L power:GND #PWR0104
+U 1 1 6097B7DC
+P 7950 4950
+F 0 "#PWR0104" H 7950 4700 50  0001 C CNN
+F 1 "GND" H 7955 4777 50  0001 C CNN
+F 2 "" H 7950 4950 50  0001 C CNN
+F 3 "" H 7950 4950 50  0001 C CNN
+	1    7950 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4850 8400 4850
+$Comp
+L Device:LED D40
+U 1 1 6097B7D4
+P 8250 4850
+F 0 "D40" H 8243 4595 50  0000 C CNN
+F 1 "5VC" H 8243 4686 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 8250 4850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/216/ap3216id-1173252.pdf" H 8250 4850 50  0001 C CNN
+F 4 "0.28" H 8250 4850 50  0001 C CNN "Price"
+F 5 "Mouser" H 8250 4850 50  0001 C CNN "Vendor"
+F 6 "604-AP3216ID" H 8250 4850 50  0001 C CNN "Vendor Part #"
+	1    8250 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_US R45
+U 1 1 6097B7CB
+P 8650 4850
+F 0 "R45" V 8445 4850 50  0000 C CNN
+F 1 "330Ω" V 8536 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8690 4840 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 8650 4850 50  0001 C CNN
+F 4 "0.10" H 8650 4850 50  0001 C CNN "Price"
+F 5 "Mouser" H 8650 4850 50  0001 C CNN "Vendor"
+F 6 "667-ERJ-8ENF3300V" H 8650 4850 50  0001 C CNN "Vendor Part #"
+	1    8650 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 6093B5D0
+P 3950 2500
+F 0 "C6" H 4042 2546 50  0000 L CNN
+F 1 "0.1μF" H 4042 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3950 2500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" H 3950 2500 50  0001 C CNN
+F 4 "0.46" H 4042 2646 50  0001 C CNN "Price"
+F 5 "581-12105C104JAT2A" H 4042 2646 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 4042 2646 50  0001 C CNN "Vendor"
+	1    3950 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2650 3950 2600
+$Comp
+L power:GND #PWR014
+U 1 1 609459A7
+P 3950 2650
+F 0 "#PWR014" H 3950 2400 50  0001 C CNN
+F 1 "GND" H 3955 2477 50  0001 C CNN
+F 2 "" H 3950 2650 50  0001 C CNN
+F 3 "" H 3950 2650 50  0001 C CNN
+	1    3950 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 2400
+Wire Wire Line
+	3850 2400 3950 2400
+Wire Wire Line
+	3550 2400 3650 2400
+Wire Wire Line
+	3550 2250 3550 2400
+$Comp
+L power:+3V3 #PWR04
+U 1 1 609446E3
+P 3550 2250
+F 0 "#PWR04" H 3550 2100 50  0001 C CNN
+F 1 "+3V3" H 3565 2423 50  0000 C CNN
+F 2 "" H 3550 2250 50  0001 C CNN
+F 3 "" H 3550 2250 50  0001 C CNN
+	1    3550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 6093F4F5
+P 3750 2400
+F 0 "R8" V 3545 2400 50  0000 C CNN
+F 1 "15kΩ" V 3636 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3750 2400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 3750 2400 50  0001 C CNN
+F 4 "0.16" H 3818 2546 50  0001 C CNN "Price"
+F 5 "603-RC1210FR-0715KL" H 3818 2546 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 3818 2546 50  0001 C CNN "Vendor"
+	1    3750 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 2400 4700 2400
 $EndSCHEMATC
